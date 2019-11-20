@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=PIN21 Pin=D11-1
-Removed Pin From Net: NetName=PIN21 Pin=D12-1
-Removed Pin From Net: NetName=PIN20 Pin=R15-2
-Removed Pin From Net: NetName=PIN20 Pin=R16-2
-Removed Member From Class: ClassName=Sheet2 Member=D11
-Removed Member From Class: ClassName=Sheet2 Member=D12
-Removed Member From Class: ClassName=Sheet2 Member=R15
-Removed Member From Class: ClassName=Sheet2 Member=R16
-Added Room: Name=Sheet2

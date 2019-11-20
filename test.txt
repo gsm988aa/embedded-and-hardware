@@ -1,6 +1,0 @@
-BTVN: Làm việc với Bitbucket.org
-
-+ Tạo repo MB04_<Account>.git
-+ Viết giải thuật sắp xếp array[10]={0, 5, 2 8, 1, 4, 7, 9, 15, 12} tăng dần trên c/c++
-+ Làm việc với branch với add, commit, push source code
-+ Tạo ra conflict và xử lý conflic bằng rebase (tham khảo lại phần xử lý conflict bằng branch)

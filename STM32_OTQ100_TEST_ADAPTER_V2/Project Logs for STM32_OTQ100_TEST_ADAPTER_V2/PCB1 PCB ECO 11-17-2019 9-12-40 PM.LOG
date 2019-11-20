@@ -1,7 +1,0 @@
-Added Component: Designator=J18(PIN_HEADER_2X2_PITCH_2MM_HEIGTH_5MM)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=PIN20 Pin=J18-1
-Added Pin To Net: NetName=PIN10 Pin=J18-2
-Added Pin To Net: NetName=PIN21 Pin=J18-3
-Added Pin To Net: NetName=PIN11 Pin=J18-4
-Added Member To Class: ClassName=Sheet2 Member=Component J18 PIN_HEADER_2X2_PITCH_2MM_HEIGTH_5MM
