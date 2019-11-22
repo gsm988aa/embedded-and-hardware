@@ -1,0 +1,223 @@
+Removed Pin From Net: NetName=PIN06 Pin=B1-1
+Removed Pin From Net: NetName=NetC13_1 Pin=C13-1
+Removed Pin From Net: NetName=PIN20 Pin=C13-2
+Removed Pin From Net: NetName=PIN20 Pin=C14-1
+Removed Pin From Net: NetName=NetC14_2 Pin=C14-2
+Removed Pin From Net: NetName=PIN14 Pin=J1-14
+Removed Pin From Net: NetName=PIN20 Pin=J1-20
+Removed Pin From Net: NetName=PIN21 Pin=J1-21
+Removed Pin From Net: NetName=PIN21 Pin=J1-22
+Removed Pin From Net: NetName=PIN20 Pin=J2-24
+Removed Pin From Net: NetName=PIN21 Pin=J2-25
+Removed Pin From Net: NetName=PIN21 Pin=J3-4
+Removed Pin From Net: NetName=PIN21 Pin=J3-26
+Removed Pin From Net: NetName=PIN21 Pin=J4-26
+Removed Pin From Net: NetName=PIN90 Pin=J5-3
+Removed Pin From Net: NetName=PIN77 Pin=J5-5
+Removed Pin From Net: NetName=PIN72 Pin=J5-7
+Removed Pin From Net: NetName=PIN76 Pin=J5-9
+Removed Pin From Net: NetName=PIN89 Pin=J5-13
+Removed Pin From Net: NetName=PIN45 Pin=J10-1
+Removed Pin From Net: NetName=PIN46 Pin=J10-3
+Removed Pin From Net: NetName=PIN69 Pin=J10-5
+Removed Pin From Net: NetName=PIN68 Pin=J10-7
+Removed Pin From Net: NetName=PIN20 Pin=J18-1
+Removed Pin From Net: NetName=PIN10 Pin=J18-2
+Removed Pin From Net: NetName=PIN21 Pin=J18-3
+Removed Pin From Net: NetName=PIN11 Pin=J18-4
+Removed Pin From Net: NetName=PIN21 Pin=J20-1
+Removed Pin From Net: NetName=NetC13_1 Pin=J20-2
+Removed Pin From Net: NetName=PIN19 Pin=J20-3
+Removed Pin From Net: NetName=PIN49 Pin=J20-4
+Removed Pin From Net: NetName=PIN20 Pin=J20-5
+Removed Pin From Net: NetName=PIN20 Pin=J20-6
+Removed Pin From Net: NetName=PIN20 Pin=J21-1
+Removed Pin From Net: NetName=PIN99 Pin=J21-2
+Removed Pin From Net: NetName=PIN73 Pin=J23-1
+Removed Pin From Net: NetName=NetC14_2 Pin=J23-2
+Removed Pin From Net: NetName=PIN20 Pin=J24-1
+Removed Pin From Net: NetName=PIN27 Pin=J24-2
+Removed Pin From Net: NetName=PIN71 Pin=R2-2
+Removed Pin From Net: NetName=PIN70 Pin=R3-2
+Removed Pin From Net: NetName=PIN60 Pin=R8-1
+Removed Pin From Net: NetName=PIN67 Pin=R9-1
+Removed Pin From Net: NetName=PIN67 Pin=SW1-1
+Removed Pin From Net: NetName=PIN60 Pin=SW2-1
+Removed Pin From Net: NetName=PIN01 Pin=U1-1
+Removed Pin From Net: NetName=PIN02 Pin=U1-2
+Removed Pin From Net: NetName=PIN03 Pin=U1-3
+Removed Pin From Net: NetName=PIN04 Pin=U1-4
+Removed Pin From Net: NetName=PIN05 Pin=U1-5
+Removed Pin From Net: NetName=PIN06 Pin=U1-6
+Removed Pin From Net: NetName=PIN07 Pin=U1-7
+Removed Pin From Net: NetName=PIN08 Pin=U1-8
+Removed Pin From Net: NetName=PIN09 Pin=U1-9
+Removed Pin From Net: NetName=PIN10 Pin=U1-10
+Removed Pin From Net: NetName=PIN11 Pin=U1-11
+Removed Pin From Net: NetName=PIN12 Pin=U1-12
+Removed Pin From Net: NetName=PIN13 Pin=U1-13
+Removed Pin From Net: NetName=PIN14 Pin=U1-14
+Removed Pin From Net: NetName=PIN15 Pin=U1-15
+Removed Pin From Net: NetName=PIN16 Pin=U1-16
+Removed Pin From Net: NetName=PIN17 Pin=U1-17
+Removed Pin From Net: NetName=PIN18 Pin=U1-18
+Removed Pin From Net: NetName=PIN19 Pin=U1-19
+Removed Pin From Net: NetName=PIN20 Pin=U1-20
+Removed Pin From Net: NetName=PIN21 Pin=U1-21
+Removed Pin From Net: NetName=PIN21 Pin=U1-22
+Removed Pin From Net: NetName=PIN23 Pin=U1-23
+Removed Pin From Net: NetName=PIN24 Pin=U1-24
+Removed Pin From Net: NetName=PIN25 Pin=U1-25
+Removed Pin From Net: NetName=PIN26 Pin=U1-26
+Removed Pin From Net: NetName=PIN27 Pin=U1-27
+Removed Pin From Net: NetName=PIN21 Pin=U1-28
+Removed Pin From Net: NetName=PIN29 Pin=U1-29
+Removed Pin From Net: NetName=PIN30 Pin=U1-30
+Removed Pin From Net: NetName=PIN31 Pin=U1-31
+Removed Pin From Net: NetName=PIN32 Pin=U1-32
+Removed Pin From Net: NetName=PIN33 Pin=U1-33
+Removed Pin From Net: NetName=PIN34 Pin=U1-34
+Removed Pin From Net: NetName=PIN35 Pin=U1-35
+Removed Pin From Net: NetName=PIN36 Pin=U1-36
+Removed Pin From Net: NetName=PIN37 Pin=U1-37
+Removed Pin From Net: NetName=PIN38 Pin=U1-38
+Removed Pin From Net: NetName=PIN39 Pin=U1-39
+Removed Pin From Net: NetName=PIN40 Pin=U1-40
+Removed Pin From Net: NetName=PIN41 Pin=U1-41
+Removed Pin From Net: NetName=PIN42 Pin=U1-42
+Removed Pin From Net: NetName=PIN43 Pin=U1-43
+Removed Pin From Net: NetName=PIN44 Pin=U1-44
+Removed Pin From Net: NetName=PIN45 Pin=U1-45
+Removed Pin From Net: NetName=PIN46 Pin=U1-46
+Removed Pin From Net: NetName=PIN47 Pin=U1-47
+Removed Pin From Net: NetName=PIN48 Pin=U1-48
+Removed Pin From Net: NetName=PIN49 Pin=U1-49
+Removed Pin From Net: NetName=PIN21 Pin=U1-50
+Removed Pin From Net: NetName=PIN51 Pin=U1-51
+Removed Pin From Net: NetName=PIN52 Pin=U1-52
+Removed Pin From Net: NetName=PIN53 Pin=U1-53
+Removed Pin From Net: NetName=PIN54 Pin=U1-54
+Removed Pin From Net: NetName=PIN55 Pin=U1-55
+Removed Pin From Net: NetName=PIN56 Pin=U1-56
+Removed Pin From Net: NetName=PIN57 Pin=U1-57
+Removed Pin From Net: NetName=PIN58 Pin=U1-58
+Removed Pin From Net: NetName=PIN59 Pin=U1-59
+Removed Pin From Net: NetName=PIN60 Pin=U1-60
+Removed Pin From Net: NetName=PIN61 Pin=U1-61
+Removed Pin From Net: NetName=PIN62 Pin=U1-62
+Removed Pin From Net: NetName=PIN63 Pin=U1-63
+Removed Pin From Net: NetName=PIN64 Pin=U1-64
+Removed Pin From Net: NetName=PIN65 Pin=U1-65
+Removed Pin From Net: NetName=PIN66 Pin=U1-66
+Removed Pin From Net: NetName=PIN67 Pin=U1-67
+Removed Pin From Net: NetName=PIN68 Pin=U1-68
+Removed Pin From Net: NetName=PIN69 Pin=U1-69
+Removed Pin From Net: NetName=PIN70 Pin=U1-70
+Removed Pin From Net: NetName=PIN71 Pin=U1-71
+Removed Pin From Net: NetName=PIN72 Pin=U1-72
+Removed Pin From Net: NetName=PIN73 Pin=U1-73
+Removed Pin From Net: NetName=PIN20 Pin=U1-74
+Removed Pin From Net: NetName=PIN21 Pin=U1-75
+Removed Pin From Net: NetName=PIN76 Pin=U1-76
+Removed Pin From Net: NetName=PIN77 Pin=U1-77
+Removed Pin From Net: NetName=PIN78 Pin=U1-78
+Removed Pin From Net: NetName=PIN79 Pin=U1-79
+Removed Pin From Net: NetName=PIN80 Pin=U1-80
+Removed Pin From Net: NetName=PIN81 Pin=U1-81
+Removed Pin From Net: NetName=PIN82 Pin=U1-82
+Removed Pin From Net: NetName=PIN83 Pin=U1-83
+Removed Pin From Net: NetName=PIN84 Pin=U1-84
+Removed Pin From Net: NetName=PIN85 Pin=U1-85
+Removed Pin From Net: NetName=PIN86 Pin=U1-86
+Removed Pin From Net: NetName=PIN87 Pin=U1-87
+Removed Pin From Net: NetName=PIN88 Pin=U1-88
+Removed Pin From Net: NetName=PIN89 Pin=U1-89
+Removed Pin From Net: NetName=PIN90 Pin=U1-90
+Removed Pin From Net: NetName=PIN91 Pin=U1-91
+Removed Pin From Net: NetName=PIN92 Pin=U1-92
+Removed Pin From Net: NetName=PIN93 Pin=U1-93
+Removed Pin From Net: NetName=PIN94 Pin=U1-94
+Removed Pin From Net: NetName=PIN95 Pin=U1-95
+Removed Pin From Net: NetName=PIN96 Pin=U1-96
+Removed Pin From Net: NetName=PIN97 Pin=U1-97
+Removed Pin From Net: NetName=PIN98 Pin=U1-98
+Removed Pin From Net: NetName=PIN99 Pin=U1-99
+Removed Pin From Net: NetName=PIN21 Pin=U1-100
+Removed Pin From Net: NetName=PIN38 Pin=U4-3
+Removed Pin From Net: NetName=PIN39 Pin=U4-4
+Removed Pin From Net: NetName=PIN52 Pin=U4-5
+Removed Pin From Net: NetName=PIN53 Pin=U4-6
+Removed Pin From Net: NetName=PIN54 Pin=U4-7
+Removed Pin From Net: NetName=PIN40 Pin=U4-8
+Removed Member From Class: ClassName=Sheet2 Member=C13
+Removed Member From Class: ClassName=Sheet2 Member=C14
+Removed Member From Class: ClassName=Sheet2 Member=J18
+Removed Member From Class: ClassName=Sheet2 Member=J20
+Removed Member From Class: ClassName=Sheet2 Member=J21
+Removed Member From Class: ClassName=Sheet2 Member=J23
+Removed Member From Class: ClassName=Sheet2 Member=J24
+Removed Member From Class: ClassName=Sheet2 Member=U1
+Added Pin To Net: NetName=NetC13_1 Pin=R2-2
+Added Pin To Net: NetName=NetC14_2 Pin=R3-2
+Change Net Name : Old Net Name=NetC13_1 New Net Name=USBDP
+Change Net Name : Old Net Name=NetC14_2 New Net Name=USBDM
+Change Net Name : Old Net Name=PIN14 New Net Name=RESET
+Change Net Name : Old Net Name=PIN20 New Net Name=GND
+Change Net Name : Old Net Name=PIN21 New Net Name=3V3
+Added Pin To Net: NetName=BAT Pin=B1-1
+Added Net: Name=BAT
+Added Pin To Net: NetName=BT1 Pin=R9-1
+Added Pin To Net: NetName=BT1 Pin=SW1-1
+Added Net: Name=BT1
+Added Pin To Net: NetName=BT2 Pin=R8-1
+Added Pin To Net: NetName=BT2 Pin=SW2-1
+Added Net: Name=BT2
+Added Pin To Net: NetName=JNRST Pin=J5-3
+Added Net: Name=JNRST
+Added Pin To Net: NetName=JTCK Pin=J5-9
+Added Net: Name=JTCK
+Added Pin To Net: NetName=JTDI Pin=J5-5
+Added Net: Name=JTDI
+Added Pin To Net: NetName=JTDO Pin=J5-13
+Added Net: Name=JTDO
+Added Pin To Net: NetName=JTMS Pin=J5-7
+Added Net: Name=JTMS
+Added Pin To Net: NetName=LED1 Pin=J10-1
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=J10-3
+Added Net: Name=LED2
+Added Pin To Net: NetName=nRF_CE Pin=U4-3
+Added Net: Name=nRF_CE
+Added Pin To Net: NetName=nRF_CSN Pin=U4-4
+Added Net: Name=nRF_CSN
+Added Pin To Net: NetName=nRF_IRQ Pin=U4-8
+Added Net: Name=nRF_IRQ
+Added Pin To Net: NetName=PIN14 Pin=J1-14
+Added Net: Name=PIN14
+Added Pin To Net: NetName=PIN20 Pin=J1-20
+Added Net: Name=PIN20
+Added Pin To Net: NetName=PIN21 Pin=J1-21
+Added Net: Name=PIN21
+Added Pin To Net: NetName=PIN22 Pin=J1-22
+Added Net: Name=PIN22
+Added Pin To Net: NetName=PIN28 Pin=J3-4
+Added Net: Name=PIN28
+Added Pin To Net: NetName=PIN50 Pin=J3-26
+Added Net: Name=PIN50
+Added Pin To Net: NetName=PIN74 Pin=J2-24
+Added Net: Name=PIN74
+Added Pin To Net: NetName=PIN75 Pin=J2-25
+Added Net: Name=PIN75
+Added Pin To Net: NetName=PIN100 Pin=J4-26
+Added Net: Name=PIN100
+Added Pin To Net: NetName=SPI2_MISO Pin=U4-6
+Added Net: Name=SPI2_MISO
+Added Pin To Net: NetName=SPI2_MOSI Pin=U4-7
+Added Net: Name=SPI2_MOSI
+Added Pin To Net: NetName=SPI2_SCK Pin=U4-5
+Added Net: Name=SPI2_SCK
+Added Pin To Net: NetName=UART1_RX Pin=J10-5
+Added Net: Name=UART1_RX
+Added Pin To Net: NetName=UART1_TX Pin=J10-7
+Added Net: Name=UART1_TX
+Added Room: Name=Sheet2
