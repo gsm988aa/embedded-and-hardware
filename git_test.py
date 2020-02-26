@@ -18,4 +18,5 @@ def sap_xep_tang_dan(arr):
     print arr_test
 
 # call function
+#********************Update for EMB_BR_01*****************
 sap_xep_tang_dan(arr_test)
