@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=PIN37 Pin=R5-1
+Removed Pin From Net: NetName=PIN37 Pin=U1-37
+Added Component: Designator=J22(Header 3x1 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN37 Pin=J22-1
+Added Pin To Net: NetName=BOOT1 Pin=J22-3
+Added Pin To Net: NetName=BOOT1 Pin=R5-1
+Added Net: Name=BOOT1
+Added Pin To Net: NetName=NetJ22_2 Pin=J22-2
+Added Pin To Net: NetName=NetJ22_2 Pin=U1-37
+Added Net: Name=NetJ22_2
+Added Member To Class: ClassName=Sheet1 Member=Component J22 Header 3x1 TH Pitch 2.54mm

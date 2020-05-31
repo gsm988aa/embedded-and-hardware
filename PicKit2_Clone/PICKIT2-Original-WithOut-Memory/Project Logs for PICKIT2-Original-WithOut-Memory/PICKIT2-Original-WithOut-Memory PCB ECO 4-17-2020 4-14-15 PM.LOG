@@ -1,0 +1,201 @@
+Added Component: Designator=C?(CAP_RAD_4mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAP_RAD_4mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(C0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(CAP_RAD_4mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D?(SOD-80)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D?(DO-214AC(SMA))
+Add component. Clean all parameters for all variants
+Added Component: Designator=D?(DO-214AC(SMA))
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(Header 5x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L?(RES-0.5W-HH-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(SOT23-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC6_1 Pin=C?-1
+Added Pin To Net: NetName=NetC6_1 Pin=C?-1
+Added Pin To Net: NetName=NetC6_1 Pin=C?-1
+Added Pin To Net: NetName=NetC6_1 Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=NetC6_1 Pin=L?-2
+Added Pin To Net: NetName=NetQ2_1 Pin=Q?-1
+Added Pin To Net: NetName=GND Pin=Q?-2
+Added Pin To Net: NetName=GND Pin=Q?-2
+Added Pin To Net: NetName=GND Pin=Q?-2
+Added Pin To Net: NetName=GND Pin=Q?-2
+Added Pin To Net: NetName=NetC6_1 Pin=Q?-2
+Added Pin To Net: NetName=GND Pin=Q?-3
+Added Pin To Net: NetName=GND Pin=Q?-3
+Added Pin To Net: NetName=GND Pin=Q?-3
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=NetR5_1 Pin=R?-1
+Added Pin To Net: NetName=NetR11_1 Pin=R?-1
+Added Pin To Net: NetName=NetR13_1 Pin=R?-1
+Added Pin To Net: NetName=NetR16_1 Pin=R?-1
+Added Pin To Net: NetName=NetR22_1 Pin=R?-1
+Added Pin To Net: NetName=NetR27_2 Pin=R?-1
+Added Pin To Net: NetName=NetR31_1 Pin=R?-1
+Added Pin To Net: NetName=NetR32_1 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetQ2_1 Pin=R?-2
+Added Pin To Net: NetName=NetR5_1 Pin=R?-2
+Added Pin To Net: NetName=NetR25_2 Pin=R?-2
+Added Pin To Net: NetName=NetR27_2 Pin=R?-2
+Added Pin To Net: NetName=VCC Pin=R?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=D?-2
+Added Pin To Net: NetName=NetC?_1 Pin=Q?-2
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=Q?-3
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=Q?-1
+Added Pin To Net: NetName=NetD?_2 Pin=Q?-1
+Added Pin To Net: NetName=NetD?_2 Pin=Q?-1
+Added Pin To Net: NetName=NetD?_2 Pin=R?-1
+Added Net: Name=NetD?_2
+Added Pin To Net: NetName=NetJ?_1 Pin=J?-1
+Added Pin To Net: NetName=NetJ?_1 Pin=Q?-3
+Added Pin To Net: NetName=NetJ?_1 Pin=R?-1
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetJ?_7 Pin=J?-7
+Added Pin To Net: NetName=NetJ?_7 Pin=R?-2
+Added Pin To Net: NetName=NetJ?_7 Pin=R?-2
+Added Net: Name=NetJ?_7
+Added Pin To Net: NetName=NetJ?_9 Pin=J?-9
+Added Pin To Net: NetName=NetJ?_9 Pin=R?-2
+Added Pin To Net: NetName=NetJ?_9 Pin=R?-2
+Added Net: Name=NetJ?_9
+Added Pin To Net: NetName=NetJ?_10 Pin=J?-10
+Added Pin To Net: NetName=NetJ?_10 Pin=R?-2
+Added Net: Name=NetJ?_10
+Added Pin To Net: NetName=NetQ?_1 Pin=Q?-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R?-1
+Added Net: Name=NetQ?_1
+Added Pin To Net: NetName=NetQ?_2 Pin=Q?-2
+Added Pin To Net: NetName=NetQ?_2 Pin=R?-1
+Added Pin To Net: NetName=NetQ?_2 Pin=R?-2
+Added Net: Name=NetQ?_2
+Added Pin To Net: NetName=NetQ?_3 Pin=Q?-3
+Added Pin To Net: NetName=NetQ?_3 Pin=R?-1
+Added Net: Name=NetQ?_3
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component C? 47uF
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component C? 100uF
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component C? 102pF
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component C? 102pF
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component C? 100uF
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component D? 1N4148
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component D? SS14
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component D? SS14
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component J? Header 5x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component L? 680uH
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3906
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3906
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3906
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3906
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3904
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3904
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? 2N3904
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? SI2301DS-P
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q? SI2301DS-N
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 1K
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10k
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 4K7
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10k
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10K
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10K
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10K
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 100K
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 4K7
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 4K7
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 330
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 1K
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 820
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 33
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 4k7
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 100
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 33
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 4k7
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 33
+Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component R? 10
+Added Room: Name=PICKIT2-Original-WithOut-Memory
+Added Room: Name=PICKIT2-Original-WithOut-Memory-1

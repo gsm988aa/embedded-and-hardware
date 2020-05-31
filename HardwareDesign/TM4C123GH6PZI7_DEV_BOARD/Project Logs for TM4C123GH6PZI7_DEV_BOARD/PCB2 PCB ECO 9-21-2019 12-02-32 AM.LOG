@@ -1,0 +1,17 @@
+Added Component: Designator=J5(IDC_CONNECTOR_20_2.54MM)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN84 Pin=J5-1
+Added Pin To Net: NetName=PIN83 Pin=J5-3
+Added Pin To Net: NetName=GND Pin=J5-4
+Added Pin To Net: NetName=PIN82 Pin=J5-7
+Added Pin To Net: NetName=GND Pin=J5-8
+Added Pin To Net: NetName=GND Pin=J5-10
+Added Pin To Net: NetName=PIN85 Pin=J5-11
+Added Pin To Net: NetName=GND Pin=J5-12
+Added Pin To Net: NetName=PIN63 Pin=J5-15
+Added Pin To Net: NetName=GND Pin=J5-16
+Added Pin To Net: NetName=GND Pin=J5-20
+Added Pin To Net: NetName=NetJ5_5 Pin=J5-5
+Added Pin To Net: NetName=NetJ5_5 Pin=R9-1
+Added Net: Name=NetJ5_5
+Added Member To Class: ClassName=Sheet1 Member=Component J5 JTAG

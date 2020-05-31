@@ -1,0 +1,40 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J4
+Added Component: Designator=J5(Header 8x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J6(Header 5x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PC0 Pin=J5-1
+Added Pin To Net: NetName=PC1 Pin=J5-2
+Added Pin To Net: NetName=PC2 Pin=J5-3
+Added Pin To Net: NetName=PC3 Pin=J5-4
+Added Pin To Net: NetName=PC4 Pin=J5-5
+Added Pin To Net: NetName=PC5 Pin=J5-6
+Added Pin To Net: NetName=PC6 Pin=J5-7
+Added Pin To Net: NetName=PC7 Pin=J5-8
+Added Pin To Net: NetName=PC8 Pin=J5-9
+Added Pin To Net: NetName=PC9 Pin=J5-10
+Added Pin To Net: NetName=PC13 Pin=J5-14
+Added Pin To Net: NetName=PD0 Pin=J6-1
+Added Pin To Net: NetName=PD1 Pin=J6-2
+Added Pin To Net: NetName=PD2 Pin=J6-3
+Added Pin To Net: NetName=3.3V Pin=J6-4
+Added Pin To Net: NetName=GND Pin=J6-5
+Added Pin To Net: NetName=3.3V Pin=J6-6
+Added Pin To Net: NetName=GND Pin=J6-7
+Added Pin To Net: NetName=3.3V Pin=J6-8
+Added Pin To Net: NetName=GND Pin=J6-9
+Added Pin To Net: NetName=3.3V Pin=J6-10
+Added Pin To Net: NetName=PD2 Pin=U1-7
+Added Pin To Net: NetName=PC10 Pin=J5-11
+Added Net: Name=PC10
+Added Pin To Net: NetName=PC11 Pin=J5-12
+Added Net: Name=PC11
+Added Pin To Net: NetName=PC12 Pin=J5-13
+Added Net: Name=PC12
+Added Pin To Net: NetName=PC14 Pin=J5-15
+Added Net: Name=PC14
+Added Pin To Net: NetName=PC15 Pin=J5-16
+Added Net: Name=PC15
+Added Member To Class: ClassName=Sheet3 Member=Component J5 Header 8x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet3 Member=Component J6 Header 5x2 TH Pitch 2.54mm
+Added Room: Name=Sheet3

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=J3-26
+Removed Pin From Net: NetName=3.3V Pin=J4-26
+Added Pin To Net: NetName=GND Pin=U1-103
+Added Pin To Net: NetName=3.3V Pin=U1-104
+Added Room: Name=Sheet1

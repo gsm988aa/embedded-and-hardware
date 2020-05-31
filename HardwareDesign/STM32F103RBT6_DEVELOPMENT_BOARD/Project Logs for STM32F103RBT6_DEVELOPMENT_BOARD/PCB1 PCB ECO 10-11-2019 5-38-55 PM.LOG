@@ -1,0 +1,161 @@
+Added Component: Designator=B1(CR1220)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C1(CAP_DISC_PITCH_2.54MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(CAP_DISC_PITCH_2.54MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(CAP_DISC_PITCH_2.54MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C4(CAP_DISC_PITCH_2.54MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C10(CAP_DISC_PITCH_2.54MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J1(Header 4x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(Header 8x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J4(Header 8x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J5(Header 8x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J6(Header 5x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R6(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R16(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Y1(HC-49S)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Y2(DT-26)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Pin To Net: NetName=PC15/OSC_IN Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=PC16/OSC_OUT Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=PC14/OSC32_IN Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=PC15/OSC32_OUT Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=NRST Pin=C10-2
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=3.3V Pin=J1-2
+Added Pin To Net: NetName=PB10/NRF-CE Pin=J1-3
+Added Pin To Net: NetName=PB11/NRF-CSN Pin=J1-4
+Added Pin To Net: NetName=PB13/SPI2_SCK Pin=J1-5
+Added Pin To Net: NetName=PB15/SPI2_MOSI Pin=J1-6
+Added Pin To Net: NetName=PB14/SPI2_MISO Pin=J1-7
+Added Pin To Net: NetName=PA0 Pin=J3-1
+Added Pin To Net: NetName=PA1 Pin=J3-2
+Added Pin To Net: NetName=PA2 Pin=J3-3
+Added Pin To Net: NetName=PA3 Pin=J3-4
+Added Pin To Net: NetName=PA4 Pin=J3-5
+Added Pin To Net: NetName=PA5 Pin=J3-6
+Added Pin To Net: NetName=PA6 Pin=J3-7
+Added Pin To Net: NetName=PA7 Pin=J3-8
+Added Pin To Net: NetName=PA8 Pin=J3-9
+Added Pin To Net: NetName=PA9 Pin=J3-10
+Added Pin To Net: NetName=PA10 Pin=J3-11
+Added Pin To Net: NetName=PA11 Pin=J3-12
+Added Pin To Net: NetName=PA12 Pin=J3-13
+Added Pin To Net: NetName=PA13 Pin=J3-14
+Added Pin To Net: NetName=PA14 Pin=J3-15
+Added Pin To Net: NetName=PA15 Pin=J3-16
+Added Pin To Net: NetName=PB0 Pin=J4-1
+Added Pin To Net: NetName=PB1 Pin=J4-2
+Added Pin To Net: NetName=PB2 Pin=J4-3
+Added Pin To Net: NetName=PB3 Pin=J4-4
+Added Pin To Net: NetName=PB4 Pin=J4-5
+Added Pin To Net: NetName=PB5 Pin=J4-6
+Added Pin To Net: NetName=PB6 Pin=J4-7
+Added Pin To Net: NetName=PB7 Pin=J4-8
+Added Pin To Net: NetName=PB8 Pin=J4-9
+Added Pin To Net: NetName=PB9 Pin=J4-10
+Added Pin To Net: NetName=PB10 Pin=J4-11
+Added Pin To Net: NetName=PB11 Pin=J4-12
+Added Pin To Net: NetName=PB12 Pin=J4-13
+Added Pin To Net: NetName=PB13 Pin=J4-14
+Added Pin To Net: NetName=PB14 Pin=J4-15
+Added Pin To Net: NetName=PB15 Pin=J4-16
+Added Pin To Net: NetName=PC0 Pin=J5-1
+Added Pin To Net: NetName=PC1 Pin=J5-2
+Added Pin To Net: NetName=PC2 Pin=J5-3
+Added Pin To Net: NetName=PC3 Pin=J5-4
+Added Pin To Net: NetName=PC4 Pin=J5-5
+Added Pin To Net: NetName=PC5 Pin=J5-6
+Added Pin To Net: NetName=PC6 Pin=J5-7
+Added Pin To Net: NetName=PC7 Pin=J5-8
+Added Pin To Net: NetName=PC8 Pin=J5-9
+Added Pin To Net: NetName=PC9 Pin=J5-10
+Added Pin To Net: NetName=PC10 Pin=J5-11
+Added Pin To Net: NetName=PC11 Pin=J5-12
+Added Pin To Net: NetName=PC12 Pin=J5-13
+Added Pin To Net: NetName=PC13 Pin=J5-14
+Added Pin To Net: NetName=PC14 Pin=J5-15
+Added Pin To Net: NetName=PC15 Pin=J5-16
+Added Pin To Net: NetName=PD0 Pin=J6-1
+Added Pin To Net: NetName=PD1 Pin=J6-2
+Added Pin To Net: NetName=PD2 Pin=J6-3
+Added Pin To Net: NetName=3.3V Pin=J6-4
+Added Pin To Net: NetName=GND Pin=J6-5
+Added Pin To Net: NetName=3.3V Pin=J6-6
+Added Pin To Net: NetName=GND Pin=J6-7
+Added Pin To Net: NetName=3.3V Pin=J6-8
+Added Pin To Net: NetName=GND Pin=J6-9
+Added Pin To Net: NetName=3.3V Pin=J6-10
+Added Pin To Net: NetName=PC16/OSC_OUT Pin=R4-1
+Added Pin To Net: NetName=PC15/OSC_IN Pin=R4-2
+Added Pin To Net: NetName=PB4/TRST Pin=R5-1
+Added Pin To Net: NetName=3.3V Pin=R5-2
+Added Pin To Net: NetName=PA15/TDI Pin=R6-1
+Added Pin To Net: NetName=3.3V Pin=R6-2
+Added Pin To Net: NetName=PA13/TMS Pin=R7-1
+Added Pin To Net: NetName=3.3V Pin=R7-2
+Added Pin To Net: NetName=PA14/TCK Pin=R8-1
+Added Pin To Net: NetName=3.3V Pin=R8-2
+Added Pin To Net: NetName=PB3/TDO Pin=R9-1
+Added Pin To Net: NetName=3.3V Pin=R9-2
+Added Pin To Net: NetName=PC15/OSC32_OUT Pin=R10-1
+Added Pin To Net: NetName=PC14/OSC32_IN Pin=R10-2
+Added Pin To Net: NetName=NRST Pin=R16-1
+Added Pin To Net: NetName=3.3V Pin=R16-2
+Added Pin To Net: NetName=PC16/OSC_OUT Pin=Y1-1
+Added Pin To Net: NetName=PC15/OSC_IN Pin=Y1-2
+Added Pin To Net: NetName=PC15/OSC32_OUT Pin=Y2-1
+Added Pin To Net: NetName=PC14/OSC32_IN Pin=Y2-2
+Added Member To Class: ClassName=Sheet3 Member=Component B1 Batery
+Added Member To Class: ClassName=Sheet3 Member=Component C1 22pF
+Added Member To Class: ClassName=Sheet3 Member=Component C2 22pF
+Added Member To Class: ClassName=Sheet3 Member=Component C3 100pF
+Added Member To Class: ClassName=Sheet3 Member=Component C4 100pF
+Added Member To Class: ClassName=Sheet3 Member=Component C10 100pF
+Added Member To Class: ClassName=Sheet3 Member=Component J1 nRF24L01
+Added Member To Class: ClassName=Sheet3 Member=Component J3 Header 8x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet3 Member=Component J4 Header 8x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet3 Member=Component J5 Header 8x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet3 Member=Component J6 Header 5x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet3 Member=Component R4 1M
+Added Member To Class: ClassName=Sheet3 Member=Component R5 10K
+Added Member To Class: ClassName=Sheet3 Member=Component R6 10K
+Added Member To Class: ClassName=Sheet3 Member=Component R7 10K
+Added Member To Class: ClassName=Sheet3 Member=Component R8 10K
+Added Member To Class: ClassName=Sheet3 Member=Component R9 10K
+Added Member To Class: ClassName=Sheet3 Member=Component R10 1M
+Added Member To Class: ClassName=Sheet3 Member=Component R16 10K
+Added Member To Class: ClassName=Sheet3 Member=Component Y1 8MHz
+Added Member To Class: ClassName=Sheet3 Member=Component Y2 32.768KHz
+Added Room: Name=Sheet3

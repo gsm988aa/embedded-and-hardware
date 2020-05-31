@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=J-NRST Pin=J7-3
+Removed Pin From Net: NetName=PIN90 Pin=J7-15
+Added Component: Designator=J11(Header 3x1 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J12(Header 3x1 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN90 Pin=J7-3
+Added Pin To Net: NetName=J-NRST Pin=J7-15
+Added Pin To Net: NetName=GND Pin=J11-1
+Added Pin To Net: NetName=PIN94 Pin=J11-2
+Added Pin To Net: NetName=VCC Pin=J11-3
+Added Pin To Net: NetName=GND Pin=J12-1
+Added Pin To Net: NetName=PIN37 Pin=J12-2
+Added Pin To Net: NetName=VCC Pin=J12-3
+Change Net Name : Old Net Name=J-NRST New Net Name=RESET
+Added Member To Class: ClassName=Sheet1 Member=Component J11 Header 3x1 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet1 Member=Component J12 Header 3x1 TH Pitch 2.54mm
