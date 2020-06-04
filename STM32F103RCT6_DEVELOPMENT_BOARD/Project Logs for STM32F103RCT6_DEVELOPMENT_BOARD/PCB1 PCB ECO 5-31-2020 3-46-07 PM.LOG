@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=3.3V Pin=LED1-1
+Removed Pin From Net: NetName=NetLED1_2 Pin=LED1-2
+Removed Member From Class: ClassName=Sheet1 Member=LED1
+Change Component Footprint: Designator=R1 Old Footprint=RES-0.25W-H-CF New Footprint=R0805
+Added Component: Designator=D2(L0805RED)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=D2-1
+Added Pin To Net: NetName=NetLED1_2 Pin=D2-2
+Change Net Name : Old Net Name=NetLED1_2 New Net Name=NetD2_2
+Added Member To Class: ClassName=Sheet1 Member=Component D2 LED0805
+Added Room: Name=Sheet1
