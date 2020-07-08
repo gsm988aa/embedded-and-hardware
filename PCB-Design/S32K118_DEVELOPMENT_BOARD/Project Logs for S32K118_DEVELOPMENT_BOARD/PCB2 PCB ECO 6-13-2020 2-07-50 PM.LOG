@@ -1,0 +1,27 @@
+Added Component: Designator=J5(Header 2x1 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JTAG(IDC_CONNECTOR_20_2.54)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN63 Pin=J5-2
+Added Pin To Net: NetName=PIN7 Pin=JTAG-1
+Added Pin To Net: NetName=PIN7 Pin=JTAG-2
+Added Pin To Net: NetName=PIN10 Pin=JTAG-4
+Added Pin To Net: NetName=PIN61 Pin=JTAG-5
+Added Pin To Net: NetName=PIN10 Pin=JTAG-6
+Added Pin To Net: NetName=PIN64 Pin=JTAG-7
+Added Pin To Net: NetName=PIN10 Pin=JTAG-8
+Added Pin To Net: NetName=PIN62 Pin=JTAG-9
+Added Pin To Net: NetName=PIN10 Pin=JTAG-10
+Added Pin To Net: NetName=PIN10 Pin=JTAG-12
+Added Pin To Net: NetName=PIN58 Pin=JTAG-13
+Added Pin To Net: NetName=PIN10 Pin=JTAG-14
+Added Pin To Net: NetName=PIN63 Pin=JTAG-15
+Added Pin To Net: NetName=PIN10 Pin=JTAG-16
+Added Pin To Net: NetName=PIN10 Pin=JTAG-18
+Added Pin To Net: NetName=PIN10 Pin=JTAG-20
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_1 Pin=JTAG-3
+Added Net: Name=NetJ5_1
+Added Member To Class: ClassName=Sheet2 Member=Component J5 Header 1x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet2 Member=Component JTAG IDC_2.54_10x2
+Added Room: Name=Sheet2

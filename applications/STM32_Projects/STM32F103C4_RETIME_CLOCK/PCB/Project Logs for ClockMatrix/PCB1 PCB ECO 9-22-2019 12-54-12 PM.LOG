@@ -1,0 +1,317 @@
+Added Component: Designator=BT1(PIN_3V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Battery; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "BAT-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LED_MATRIX_1088AS/BS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED2(LED_MATRIX_1088AS/BS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED3(LED_MATRIX_1088AS/BS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED4(LED_MATRIX_1088AS/BS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED5(LED_MATRIX_1088AS/BS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW1(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW2(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW3(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW4(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(LQFP048_FPT-48P-M05)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U2(SOT223-3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U3(SO16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U4(SO16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U5(SO16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U6(SO16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U7(SO16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U8(SO16)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=U1-9
+Added Pin To Net: NetName=3.3V Pin=U1-24
+Added Pin To Net: NetName=3.3V Pin=U1-36
+Added Pin To Net: NetName=3.3V Pin=U1-48
+Added Net: Name=3.3V
+Added Pin To Net: NetName=GND Pin=BT1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW2-3
+Added Pin To Net: NetName=GND Pin=SW3-3
+Added Pin To Net: NetName=GND Pin=SW4-3
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Pin To Net: NetName=GND Pin=U6-8
+Added Pin To Net: NetName=GND Pin=U7-8
+Added Pin To Net: NetName=GND Pin=U8-8
+Added Net: Name=GND
+Added Pin To Net: NetName=NetBT1_1 Pin=BT1-1
+Added Pin To Net: NetName=NetBT1_1 Pin=U1-1
+Added Net: Name=NetBT1_1
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=U4-4
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_2 Pin=U4-6
+Added Net: Name=NetLED1_2
+Added Pin To Net: NetName=NetLED1_3 Pin=LED1-3
+Added Pin To Net: NetName=NetLED1_3 Pin=LED2-3
+Added Pin To Net: NetName=NetLED1_3 Pin=LED3-3
+Added Pin To Net: NetName=NetLED1_3 Pin=LED4-3
+Added Pin To Net: NetName=NetLED1_3 Pin=LED5-3
+Added Pin To Net: NetName=NetLED1_3 Pin=U3-1
+Added Net: Name=NetLED1_3
+Added Pin To Net: NetName=NetLED1_4 Pin=LED1-4
+Added Pin To Net: NetName=NetLED1_4 Pin=LED2-4
+Added Pin To Net: NetName=NetLED1_4 Pin=LED3-4
+Added Pin To Net: NetName=NetLED1_4 Pin=LED4-4
+Added Pin To Net: NetName=NetLED1_4 Pin=LED5-4
+Added Pin To Net: NetName=NetLED1_4 Pin=U3-2
+Added Net: Name=NetLED1_4
+Added Pin To Net: NetName=NetLED1_5 Pin=LED1-5
+Added Pin To Net: NetName=NetLED1_5 Pin=U4-7
+Added Net: Name=NetLED1_5
+Added Pin To Net: NetName=NetLED1_6 Pin=LED1-6
+Added Pin To Net: NetName=NetLED1_6 Pin=LED2-6
+Added Pin To Net: NetName=NetLED1_6 Pin=LED3-6
+Added Pin To Net: NetName=NetLED1_6 Pin=LED4-6
+Added Pin To Net: NetName=NetLED1_6 Pin=LED5-6
+Added Pin To Net: NetName=NetLED1_6 Pin=U3-4
+Added Net: Name=NetLED1_6
+Added Pin To Net: NetName=NetLED1_7 Pin=LED1-7
+Added Pin To Net: NetName=NetLED1_7 Pin=U4-5
+Added Net: Name=NetLED1_7
+Added Pin To Net: NetName=NetLED1_8 Pin=LED1-8
+Added Pin To Net: NetName=NetLED1_8 Pin=U4-2
+Added Net: Name=NetLED1_8
+Added Pin To Net: NetName=NetLED1_9 Pin=LED1-9
+Added Pin To Net: NetName=NetLED1_9 Pin=U4-15
+Added Net: Name=NetLED1_9
+Added Pin To Net: NetName=NetLED1_10 Pin=LED1-10
+Added Pin To Net: NetName=NetLED1_10 Pin=LED2-10
+Added Pin To Net: NetName=NetLED1_10 Pin=LED3-10
+Added Pin To Net: NetName=NetLED1_10 Pin=LED4-10
+Added Pin To Net: NetName=NetLED1_10 Pin=LED5-10
+Added Pin To Net: NetName=NetLED1_10 Pin=U3-3
+Added Net: Name=NetLED1_10
+Added Pin To Net: NetName=NetLED1_11 Pin=LED1-11
+Added Pin To Net: NetName=NetLED1_11 Pin=LED2-11
+Added Pin To Net: NetName=NetLED1_11 Pin=LED3-11
+Added Pin To Net: NetName=NetLED1_11 Pin=LED4-11
+Added Pin To Net: NetName=NetLED1_11 Pin=LED5-11
+Added Pin To Net: NetName=NetLED1_11 Pin=U3-5
+Added Net: Name=NetLED1_11
+Added Pin To Net: NetName=NetLED1_12 Pin=LED1-12
+Added Pin To Net: NetName=NetLED1_12 Pin=U4-3
+Added Net: Name=NetLED1_12
+Added Pin To Net: NetName=NetLED1_13 Pin=LED1-13
+Added Pin To Net: NetName=NetLED1_13 Pin=LED2-13
+Added Pin To Net: NetName=NetLED1_13 Pin=LED3-13
+Added Pin To Net: NetName=NetLED1_13 Pin=LED4-13
+Added Pin To Net: NetName=NetLED1_13 Pin=LED5-13
+Added Pin To Net: NetName=NetLED1_13 Pin=U3-15
+Added Net: Name=NetLED1_13
+Added Pin To Net: NetName=NetLED1_14 Pin=LED1-14
+Added Pin To Net: NetName=NetLED1_14 Pin=U4-1
+Added Net: Name=NetLED1_14
+Added Pin To Net: NetName=NetLED1_15 Pin=LED1-15
+Added Pin To Net: NetName=NetLED1_15 Pin=LED2-15
+Added Pin To Net: NetName=NetLED1_15 Pin=LED3-15
+Added Pin To Net: NetName=NetLED1_15 Pin=LED4-15
+Added Pin To Net: NetName=NetLED1_15 Pin=LED5-15
+Added Pin To Net: NetName=NetLED1_15 Pin=U3-6
+Added Net: Name=NetLED1_15
+Added Pin To Net: NetName=NetLED1_16 Pin=LED1-16
+Added Pin To Net: NetName=NetLED1_16 Pin=LED2-16
+Added Pin To Net: NetName=NetLED1_16 Pin=LED3-16
+Added Pin To Net: NetName=NetLED1_16 Pin=LED4-16
+Added Pin To Net: NetName=NetLED1_16 Pin=LED5-16
+Added Pin To Net: NetName=NetLED1_16 Pin=U3-7
+Added Net: Name=NetLED1_16
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=U5-4
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Pin To Net: NetName=NetLED2_2 Pin=U5-6
+Added Net: Name=NetLED2_2
+Added Pin To Net: NetName=NetLED2_5 Pin=LED2-5
+Added Pin To Net: NetName=NetLED2_5 Pin=U5-7
+Added Net: Name=NetLED2_5
+Added Pin To Net: NetName=NetLED2_7 Pin=LED2-7
+Added Pin To Net: NetName=NetLED2_7 Pin=U5-5
+Added Net: Name=NetLED2_7
+Added Pin To Net: NetName=NetLED2_8 Pin=LED2-8
+Added Pin To Net: NetName=NetLED2_8 Pin=U5-2
+Added Net: Name=NetLED2_8
+Added Pin To Net: NetName=NetLED2_9 Pin=LED2-9
+Added Pin To Net: NetName=NetLED2_9 Pin=U5-15
+Added Net: Name=NetLED2_9
+Added Pin To Net: NetName=NetLED2_12 Pin=LED2-12
+Added Pin To Net: NetName=NetLED2_12 Pin=U5-3
+Added Net: Name=NetLED2_12
+Added Pin To Net: NetName=NetLED2_14 Pin=LED2-14
+Added Pin To Net: NetName=NetLED2_14 Pin=U5-1
+Added Net: Name=NetLED2_14
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=U6-4
+Added Net: Name=NetLED3_1
+Added Pin To Net: NetName=NetLED3_2 Pin=LED3-2
+Added Pin To Net: NetName=NetLED3_2 Pin=U6-6
+Added Net: Name=NetLED3_2
+Added Pin To Net: NetName=NetLED3_5 Pin=LED3-5
+Added Pin To Net: NetName=NetLED3_5 Pin=U6-7
+Added Net: Name=NetLED3_5
+Added Pin To Net: NetName=NetLED3_7 Pin=LED3-7
+Added Pin To Net: NetName=NetLED3_7 Pin=U6-5
+Added Net: Name=NetLED3_7
+Added Pin To Net: NetName=NetLED3_8 Pin=LED3-8
+Added Pin To Net: NetName=NetLED3_8 Pin=U6-2
+Added Net: Name=NetLED3_8
+Added Pin To Net: NetName=NetLED3_9 Pin=LED3-9
+Added Pin To Net: NetName=NetLED3_9 Pin=U6-15
+Added Net: Name=NetLED3_9
+Added Pin To Net: NetName=NetLED3_12 Pin=LED3-12
+Added Pin To Net: NetName=NetLED3_12 Pin=U6-3
+Added Net: Name=NetLED3_12
+Added Pin To Net: NetName=NetLED3_14 Pin=LED3-14
+Added Pin To Net: NetName=NetLED3_14 Pin=U6-1
+Added Net: Name=NetLED3_14
+Added Pin To Net: NetName=NetLED4_1 Pin=LED4-1
+Added Pin To Net: NetName=NetLED4_1 Pin=U7-4
+Added Net: Name=NetLED4_1
+Added Pin To Net: NetName=NetLED4_2 Pin=LED4-2
+Added Pin To Net: NetName=NetLED4_2 Pin=U7-6
+Added Net: Name=NetLED4_2
+Added Pin To Net: NetName=NetLED4_5 Pin=LED4-5
+Added Pin To Net: NetName=NetLED4_5 Pin=U7-7
+Added Net: Name=NetLED4_5
+Added Pin To Net: NetName=NetLED4_7 Pin=LED4-7
+Added Pin To Net: NetName=NetLED4_7 Pin=U7-5
+Added Net: Name=NetLED4_7
+Added Pin To Net: NetName=NetLED4_8 Pin=LED4-8
+Added Pin To Net: NetName=NetLED4_8 Pin=U7-2
+Added Net: Name=NetLED4_8
+Added Pin To Net: NetName=NetLED4_9 Pin=LED4-9
+Added Pin To Net: NetName=NetLED4_9 Pin=U7-15
+Added Net: Name=NetLED4_9
+Added Pin To Net: NetName=NetLED4_12 Pin=LED4-12
+Added Pin To Net: NetName=NetLED4_12 Pin=U7-3
+Added Net: Name=NetLED4_12
+Added Pin To Net: NetName=NetLED4_14 Pin=LED4-14
+Added Pin To Net: NetName=NetLED4_14 Pin=U7-1
+Added Net: Name=NetLED4_14
+Added Pin To Net: NetName=NetLED5_1 Pin=LED5-1
+Added Pin To Net: NetName=NetLED5_1 Pin=U8-4
+Added Net: Name=NetLED5_1
+Added Pin To Net: NetName=NetLED5_2 Pin=LED5-2
+Added Pin To Net: NetName=NetLED5_2 Pin=U8-6
+Added Net: Name=NetLED5_2
+Added Pin To Net: NetName=NetLED5_5 Pin=LED5-5
+Added Pin To Net: NetName=NetLED5_5 Pin=U8-7
+Added Net: Name=NetLED5_5
+Added Pin To Net: NetName=NetLED5_7 Pin=LED5-7
+Added Pin To Net: NetName=NetLED5_7 Pin=U8-5
+Added Net: Name=NetLED5_7
+Added Pin To Net: NetName=NetLED5_8 Pin=LED5-8
+Added Pin To Net: NetName=NetLED5_8 Pin=U8-2
+Added Net: Name=NetLED5_8
+Added Pin To Net: NetName=NetLED5_9 Pin=LED5-9
+Added Pin To Net: NetName=NetLED5_9 Pin=U8-15
+Added Net: Name=NetLED5_9
+Added Pin To Net: NetName=NetLED5_12 Pin=LED5-12
+Added Pin To Net: NetName=NetLED5_12 Pin=U8-3
+Added Net: Name=NetLED5_12
+Added Pin To Net: NetName=NetLED5_14 Pin=LED5-14
+Added Pin To Net: NetName=NetLED5_14 Pin=U8-1
+Added Net: Name=NetLED5_14
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U1-7
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetSW1_1 Pin=SW1-1
+Added Pin To Net: NetName=NetSW1_1 Pin=U1-18
+Added Net: Name=NetSW1_1
+Added Pin To Net: NetName=NetSW2_1 Pin=SW2-1
+Added Pin To Net: NetName=NetSW2_1 Pin=U1-19
+Added Net: Name=NetSW2_1
+Added Pin To Net: NetName=NetSW3_1 Pin=SW3-1
+Added Pin To Net: NetName=NetSW3_1 Pin=U1-20
+Added Net: Name=NetSW3_1
+Added Pin To Net: NetName=NetSW4_1 Pin=SW4-1
+Added Pin To Net: NetName=NetSW4_1 Pin=U1-39
+Added Net: Name=NetSW4_1
+Added Pin To Net: NetName=NetU1_26 Pin=U1-26
+Added Pin To Net: NetName=NetU1_26 Pin=U3-12
+Added Pin To Net: NetName=NetU1_26 Pin=U4-12
+Added Pin To Net: NetName=NetU1_26 Pin=U5-12
+Added Pin To Net: NetName=NetU1_26 Pin=U6-12
+Added Pin To Net: NetName=NetU1_26 Pin=U7-12
+Added Pin To Net: NetName=NetU1_26 Pin=U8-12
+Added Net: Name=NetU1_26
+Added Pin To Net: NetName=NetU1_27 Pin=U1-27
+Added Pin To Net: NetName=NetU1_27 Pin=U3-11
+Added Pin To Net: NetName=NetU1_27 Pin=U4-11
+Added Pin To Net: NetName=NetU1_27 Pin=U5-11
+Added Pin To Net: NetName=NetU1_27 Pin=U6-11
+Added Pin To Net: NetName=NetU1_27 Pin=U7-11
+Added Pin To Net: NetName=NetU1_27 Pin=U8-11
+Added Net: Name=NetU1_27
+Added Pin To Net: NetName=NetU1_28 Pin=U1-28
+Added Pin To Net: NetName=NetU1_28 Pin=U3-14
+Added Net: Name=NetU1_28
+Added Pin To Net: NetName=NetU3_9 Pin=U3-9
+Added Pin To Net: NetName=NetU3_9 Pin=U4-14
+Added Net: Name=NetU3_9
+Added Pin To Net: NetName=NetU3_10 Pin=U3-10
+Added Pin To Net: NetName=NetU3_10 Pin=U4-10
+Added Pin To Net: NetName=NetU3_10 Pin=U5-10
+Added Pin To Net: NetName=NetU3_10 Pin=U6-10
+Added Pin To Net: NetName=NetU3_10 Pin=U7-10
+Added Pin To Net: NetName=NetU3_10 Pin=U8-10
+Added Net: Name=NetU3_10
+Added Pin To Net: NetName=NetU3_13 Pin=U3-13
+Added Pin To Net: NetName=NetU3_13 Pin=U4-13
+Added Pin To Net: NetName=NetU3_13 Pin=U5-13
+Added Pin To Net: NetName=NetU3_13 Pin=U6-13
+Added Pin To Net: NetName=NetU3_13 Pin=U7-13
+Added Pin To Net: NetName=NetU3_13 Pin=U8-13
+Added Net: Name=NetU3_13
+Added Pin To Net: NetName=NetU4_9 Pin=U4-9
+Added Pin To Net: NetName=NetU4_9 Pin=U5-14
+Added Net: Name=NetU4_9
+Added Pin To Net: NetName=NetU5_9 Pin=U5-9
+Added Pin To Net: NetName=NetU5_9 Pin=U6-14
+Added Net: Name=NetU5_9
+Added Pin To Net: NetName=NetU6_9 Pin=U6-9
+Added Pin To Net: NetName=NetU6_9 Pin=U7-14
+Added Net: Name=NetU6_9
+Added Pin To Net: NetName=NetU7_9 Pin=U7-9
+Added Pin To Net: NetName=NetU7_9 Pin=U8-14
+Added Net: Name=NetU7_9
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=U3-16
+Added Pin To Net: NetName=VCC Pin=U4-16
+Added Pin To Net: NetName=VCC Pin=U5-16
+Added Pin To Net: NetName=VCC Pin=U6-16
+Added Pin To Net: NetName=VCC Pin=U7-16
+Added Pin To Net: NetName=VCC Pin=U8-16
+Added Net: Name=VCC
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

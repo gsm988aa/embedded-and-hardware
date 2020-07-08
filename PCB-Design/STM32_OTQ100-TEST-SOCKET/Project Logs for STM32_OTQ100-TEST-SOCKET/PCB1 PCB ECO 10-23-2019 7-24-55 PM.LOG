@@ -1,0 +1,113 @@
+Added Component: Designator=C1(CAP_RAD_7mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(CAP_RAD_7mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(C0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C4(C0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C5(C0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C6(C0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D1(DO-35 Horizontal)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D2(TO-269AA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D3(L0805RED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J7(Header 10x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J8(USB-B-TYPE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J9(Header 3x1 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J10(JACK-DC)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U2(SOT223-3)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5 Pin=D2-3
+Added Pin To Net: NetName=+5 Pin=J9-1
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=D2-4
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=GND Pin=J7-4
+Added Pin To Net: NetName=GND Pin=J7-6
+Added Pin To Net: NetName=GND Pin=J7-8
+Added Pin To Net: NetName=GND Pin=J7-10
+Added Pin To Net: NetName=GND Pin=J7-12
+Added Pin To Net: NetName=GND Pin=J7-14
+Added Pin To Net: NetName=GND Pin=J7-16
+Added Pin To Net: NetName=GND Pin=J7-18
+Added Pin To Net: NetName=GND Pin=J7-20
+Added Pin To Net: NetName=GND Pin=J8-4
+Added Pin To Net: NetName=GND Pin=J8-S1
+Added Pin To Net: NetName=GND Pin=J8-S2
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Net: Name=GND
+Added Pin To Net: NetName=J-NRST Pin=J7-3
+Added Net: Name=J-NRST
+Added Pin To Net: NetName=J-TCK Pin=J7-9
+Added Net: Name=J-TCK
+Added Pin To Net: NetName=J-TDI Pin=J7-5
+Added Net: Name=J-TDI
+Added Pin To Net: NetName=J-TDO Pin=J7-13
+Added Net: Name=J-TDO
+Added Pin To Net: NetName=J-TMS Pin=J7-7
+Added Net: Name=J-TMS
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=D1-2
+Added Pin To Net: NetName=NetC1_1 Pin=U2-3
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=J9-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=J10-3
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=J10-2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R1-2
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetJ8_1 Pin=J8-1
+Added Pin To Net: NetName=NetJ8_1 Pin=J9-3
+Added Net: Name=NetJ8_1
+Added Pin To Net: NetName=RESET Pin=J7-15
+Added Net: Name=RESET
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=VCC Pin=C5-1
+Added Pin To Net: NetName=VCC Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=J7-1
+Added Pin To Net: NetName=VCC Pin=J7-2
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Pin To Net: NetName=VCC Pin=U2-2
+Added Pin To Net: NetName=VCC Pin=U2-2
+Added Net: Name=VCC
+Added Member To Class: ClassName=Sheet1 Member=Component C1 100uF
+Added Member To Class: ClassName=Sheet1 Member=Component C2 100uF
+Added Member To Class: ClassName=Sheet1 Member=Component C3 102pF
+Added Member To Class: ClassName=Sheet1 Member=Component C4 103pF
+Added Member To Class: ClassName=Sheet1 Member=Component C5 104pF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 33pF
+Added Member To Class: ClassName=Sheet1 Member=Component D1 1N4148
+Added Member To Class: ClassName=Sheet1 Member=Component D2 MB2S
+Added Member To Class: ClassName=Sheet1 Member=Component D3 LED0805
+Added Member To Class: ClassName=Sheet1 Member=Component J7 Header 10x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet1 Member=Component J8 USB B Type
+Added Member To Class: ClassName=Sheet1 Member=Component J9 Header 3x1 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet1 Member=Component J10 Connector
+Added Member To Class: ClassName=Sheet1 Member=Component R1 10k
+Added Member To Class: ClassName=Sheet1 Member=Component U2 AMS1117
+Added Room: Name=Sheet1

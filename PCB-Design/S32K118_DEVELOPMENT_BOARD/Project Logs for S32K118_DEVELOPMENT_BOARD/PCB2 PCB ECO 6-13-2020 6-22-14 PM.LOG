@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+5 Pin=R10-1
+Removed Pin From Net: NetName=NetD6_1 Pin=R10-2
+Change Component Footprint: Designator=R10 Old Footprint=RES-0.25W-H-MF New Footprint=R0805
+Change Component Comment : Designator=R10 Old Comment=10K New Comment=220
+Added Pin To Net: NetName=NetD6_1 Pin=R10-1
+Added Pin To Net: NetName=+5 Pin=R10-2
+Added Room: Name=Sheet2

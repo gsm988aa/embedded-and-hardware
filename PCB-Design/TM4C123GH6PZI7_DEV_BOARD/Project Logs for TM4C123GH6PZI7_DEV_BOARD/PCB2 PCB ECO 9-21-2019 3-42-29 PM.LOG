@@ -1,0 +1,7 @@
+Added Component: Designator=J10(Header 4x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN6 Pin=J10-5
+Added Pin To Net: NetName=PIN5 Pin=J10-6
+Added Pin To Net: NetName=PIN6 Pin=J10-7
+Added Pin To Net: NetName=PIN5 Pin=J10-8
+Added Member To Class: ClassName=Sheet1 Member=Component J10 Header 4x2 TH Pitch 2.54mm

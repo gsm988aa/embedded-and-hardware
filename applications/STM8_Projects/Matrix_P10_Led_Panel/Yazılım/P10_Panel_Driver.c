@@ -1,0 +1,767 @@
+/*******************************************************************************
+* File Name          : P10_Panel_Driver.c
+* Author             : Ferhat YOL
+* Version            : V1.0
+* Date               : 13/07/2013
+* Description        : P10 Panel kütüphanesidir.
+*                    :
+*******************************************************************************/                     
+
+#include <font1.h>
+#include <font2.h>
+#include <font3.h>
+#include <font4.h>
+
+#define PinA     pin_c0
+#define PinB     pin_c1
+#define PinOE    pin_c4                    //OE=0 Display OFF, OE=1 Display ON 
+#define LATCH    pin_c6                    // 
+//      PinSCK   pin_c3                    //Spi Clock Hattý
+//      PinData  pin_c5                    //Spi Data Hattý
+//      PWM_Pin  pin_c2                    //
+
+//       _____
+// PWM__|     \
+// OE___| AND  }---- Disp_Enable 
+//      |_____/      
+//
+//  P10 Led Board
+//      1     2
+// OE  --|oo|-- A
+// GND --|oo|-- B
+// GND --|oo|-- 
+// GND --|oo|-- SCK
+// GND --|oo|-- LATCH
+// GND --|oo|-- DATA
+// GND --|oo|--
+// GND --|oo|--
+//     15    16 
+//
+#define Font1H   8
+#define Font2H   12
+#define Font3H   14
+#define Font4H   16
+#define Panel     1                        //P10 Panel Sayýsý
+#define RIGHT     0                        //
+#define LEFT      1                        //
+#define WIDTH     31
+#define HEIGHT    15
+
+unsigned int8 display_ram[16][4];          //Bu Bölge Display Ram Alanýný belirtir
+unsigned char Text[100]="";
+unsigned int8 imageBuffer[64];
+
+int1 LineScroll       (unsigned int Line, int1 Zerobit);
+void clear_display    (int1 fill);
+void invert_screen    (void);
+void Set_Brightness   (int8 value);
+void SetTextFont      (unsigned int Font);
+void PutPixel         (unsigned int Xpos, unsigned int Ypos, int1 fill);
+int1 GetPixel         (unsigned int Xpos, unsigned int Ypos);
+void Line             (unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, int1 fill);
+void Rectangle        (unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, int1 fill);
+void Circle           (unsigned int x, unsigned int y, unsigned int size, int1 fill);
+void Bargraph         (unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, int1 hor, unsigned int value);
+void ShowString       (unsigned int x, unsigned int y, unsigned int size, int1 fill);
+void TextToLeftScroll (unsigned int Line, unsigned int Size, unsigned int speed, int1 fill);
+void Writeimage       (void);
+
+/***********************Türkçe KArakterler burada ayrýlýr**********************/
+int CharAdres(char c){
+  int adr=0;
+  switch(c)
+  {
+  case 'Ü':adr=96;break;
+  case 'Ö':adr=97;break;
+  case 'Þ':adr=98;break;
+  default:
+    adr=c-32;
+  break;
+  }
+  return adr;
+}
+
+/*******************************************************************************
+*   Satýr Kaydýrma Fonksiyonu                                                  *
+*   Parameter:    Line, ZeroBit                                                *
+*   Return:    OwerFlow                                                        *
+*******************************************************************************/
+int1 LineScroll(unsigned int Line, int1 ZeroBit){
+  unsigned int32 Tam=0;
+  unsigned int y1=Line%4;
+  unsigned int y2=Line/4;
+  int1 OwerFlow;
+  ZeroBit=1-Zerobit;
+  
+  OwerFlow=(display_ram[(y2*4)][y1]/128)&0x01;
+  Tam=display_ram[(y2*4)][y1];
+  Tam=Tam<<8;
+  Tam=Tam+display_ram[(y2*4)+1][y1];
+  Tam=Tam<<8;
+  Tam=Tam+display_ram[(y2*4)+2][y1];
+  Tam=Tam<<8;
+  Tam=Tam+display_ram[(y2*4)+3][y1];
+  
+  Tam=Tam<<1;
+  Tam=Tam+ZeroBit;
+  
+  display_ram[(y2*4)  ][y1]=(int32)(Tam>>24)&0xFF;
+  display_ram[(y2*4)+1][y1]=(int32)(Tam>>16)&0xFF;
+  display_ram[(y2*4)+2][y1]=(int32)(Tam>>8)&0xFF;
+  display_ram[(y2*4)+3][y1]=(int32)(Tam&0xFF);
+  
+  Return OwerFlow;
+}
+/*******************************************************************************
+*   Text Basma Fonksiyonu  Font1                                               *
+*   Parameter:    x, y, Fill                                                   *
+*   Return:                                                                    *
+*******************************************************************************/
+void DrawCharFont1(unsigned x, unsigned y, int1 fill){
+unsigned int a=0,b=0,i=0;
+unsigned int cdata=0;
+unsigned int clm=x,row=y;
+     
+     While (Text[i]!='\0')
+     {
+      if(clm+5>WIDTH)  //Satýr sonuna gelindimi Bir Alt Satýra Geç
+      { 
+        clm=0;         
+        row=row+8;
+        if(row+8>HEIGHT+1) break;
+      }
+     
+      for(b=0;b<5;b++)
+      {
+       cdata=Font_5x7[Text[i]-32][b];
+       for(a=0;a<8;a++)
+       {
+          PutPixel(clm+b,row+a,(fill-(cdata>>a) & 0x01));
+       }
+      }
+      
+      i++;
+      clm=clm+6;
+     }  
+}
+/*******************************************************************************
+*   Text Basma Fonksiyonu  Font2                                               *
+*   Parameter:    x, y, Fill                                                   *
+*   Return:                                                                    *
+*******************************************************************************/
+void DrawCharFont2(unsigned int x, unsigned int y, int1 fill){
+unsigned int a=0,b=0,i=0;
+unsigned int cdata=0;
+unsigned int clm=x,row=y;
+
+  while(Text[i]!='\0')
+  {  
+      if(clm+8>WIDTH)  //Satýr sonuna gelindimi Bir Alt Satýra Geç
+      { 
+        clm=0;         
+        row=row+12;
+        if(row+12>HEIGHT+1) break;
+      }
+      
+       for(b=0;b<16;b=b+2)
+       {
+         cdata=Font_8x12[Text[i]-32][b];
+         for(a=0;a<8;a++)
+         {
+           PutPixel(clm+(b/2),row+a,(fill-(cdata>>a) & 0x01));
+         }
+         cdata=Font_8x12[Text[i]-32][b+1];
+         for(a=0;a<4;a++)
+         {
+           PutPixel(clm+(b/2),row+8+a,(fill-(cdata>>a) & 0x01));
+         }
+       }
+     clm=clm+8;
+     i++;
+  }
+}
+/*******************************************************************************
+*   Text Basma Fonksiyonu  Font3                                               *
+*   Parameter:    x, y, Fill                                                   *
+*   Return:                                                                    *
+*******************************************************************************/
+void DrawCharFont3(unsigned int x, unsigned int y, int1 fill){
+unsigned int a=0,b=0,i=0;
+unsigned int cdata=0;
+unsigned int clm=x,row=y;
+
+  while(Text[i]!='\0')
+  {  
+      if(clm+12>WIDTH)  //Satýr sonuna gelindimi Bir Alt Satýra Geç
+      { 
+        clm=0;         
+        row=row+14;
+        if(row+14>HEIGHT+1) break;
+      }
+      
+       for(b=0;b<24;b=b+2)
+       {
+         cdata=Font_12x14[Text[i]-32][b];
+         for(a=0;a<8;a++)
+         {
+           PutPixel(clm+(b/2),row+a,(fill-(cdata>>a) & 0x01));
+         }
+         cdata=Font_12x14[Text[i]-32][b+1];
+         for(a=0;a<6;a++)
+         {
+           PutPixel(clm+(b/2),row+8+a,(fill-(cdata>>a) & 0x01));
+         }
+       }
+     clm=clm+12;
+     i++;
+  }
+}
+/*******************************************************************************
+*   Text Basma Fonksiyonu  Font4                                               *
+*   Parameter:    x, y, Fill                                                   *
+*   Return:                                                                    *
+*******************************************************************************/
+void DrawCharFont4(unsigned int x, unsigned int y, int1 fill){
+unsigned int a=0,b=0,i=0;
+unsigned int cdata=0;
+unsigned int cadr=0;
+unsigned int clm=x,row=y;
+
+  while(Text[i]!='\0')
+  {  
+       if(clm+12>WIDTH)  //Satýr sonuna gelindimi Bir Alt Satýra Geç
+       { 
+         clm=0;         
+         row=row+16;
+         if(row+16>HEIGHT+1) break;
+       }
+       
+       cadr=CharAdres(Text[i]);
+      
+       for(b=0;b<24;b=b+2)
+       {
+         cdata=Font_12x16[cadr][b];
+         for(a=0;a<8;a++)
+         {
+           PutPixel(clm+(b/2),row+a,(fill-(cdata>>a) & 0x01));
+         }
+         cdata=Font_12x16[cadr][b+1];
+         for(a=0;a<8;a++)
+         {
+           PutPixel(clm+(b/2),row+8+a,(fill-(cdata>>a) & 0x01));
+         }
+       }
+     clm=clm+12;
+     i++;
+  }
+}
+/*******************************************************************************
+*   Text Kaydýrma Fonksiyonu  Font1                                            *
+*   Parameter:    Line, Speed, Fill                                            *
+*   Return:                                                                    *
+*******************************************************************************/
+void ScrollTextFont1 (unsigned int Line, unsigned int speed,int1 fill){
+  unsigned int a=0,b=0,i=0;
+  unsigned int cdata=0;
+  unsigned int16 delay=speed*20;
+  int1 ZeroBit=0; 
+  
+  While(Text[i]!='\0')
+  {
+    if(Line+Font1H-1>HEIGHT)Break;
+    for(b=0;b<5;b++)
+    {
+      cdata=Font_5x7[Text[i]-32][b];
+      for (a=0;a<8;a++)
+      {
+        ZeroBit=fill-(cdata>>a) & 0x01;
+        LineScroll(Line+a,ZeroBit);
+      }
+      delay_Ms(210-delay);
+    }
+    for (a=0;a<8;a++)
+    {
+      LineScroll(Line+a,0);
+    }
+    delay_Ms(210-delay);
+    i++;
+  }
+}
+/*******************************************************************************
+*   Text Kaydýrma Fonksiyonu  Font2                                            *
+*   Parameter:    Line, Speed, Fill                                            *
+*   Return:                                                                    *
+*******************************************************************************/
+void ScrollTextFont2(unsigned int Line, unsigned int Speed,int1 fill){
+  unsigned int a=0,b=0,i=0;
+  unsigned int cdata=0;
+  unsigned int16 delay=speed*20;
+  unsigned int16 sayac=0;
+  int1 ZeroBit=0; 
+  
+  while(Text[i]!='\0')
+  { 
+    if(Line+Font2H-1>HEIGHT)Break;
+    for(b=0;b<16;b=b+2)
+    {
+       cdata=Font_8x12[Text[i]-32][b];
+       for(a=0;a<8;a++)
+       {
+         ZeroBit=fill-(cdata>>a) & 0x01;
+         LineScroll(Line+a,ZeroBit);
+       }  
+       cdata=Font_8x12[Text[i]-32][b+1];
+       for(a=0;a<4;a++)
+       {
+         ZeroBit=fill-(cdata>>a) & 0x01;
+         LineScroll(Line+8+a,ZeroBit);
+       } 
+       for(sayac=0;sayac<210-delay;sayac++)
+       {
+         delay_ms(1);
+       } 
+    }
+    i++;
+  }
+}
+/*******************************************************************************
+*   Text Kaydýrma Fonksiyonu  Font3                                            *
+*   Parameter:    Line, Speed, Fill                                            *
+*   Return:                                                                    *
+*******************************************************************************/
+void ScrollTextFont3(unsigned int Line, unsigned int Speed,int1 fill){
+  unsigned int a=0,b=0,i=0;
+  unsigned int cdata=0;
+  unsigned int16 delay=speed*20;
+  unsigned int16 sayac=0;
+
+  
+  int1 ZeroBit=0; 
+  
+  while(Text[i]!='\0')
+  {
+    if(Line+Font3H-1>HEIGHT)Break;
+    for(b=0;b<24;b=b+2)
+    {
+       cdata=Font_12x14[Text[i]-32][b];
+       for(a=0;a<8;a++)
+       {
+         ZeroBit=fill-(cdata>>a) & 0x01;
+         LineScroll(Line+a,ZeroBit);
+       }  
+       cdata=Font_12x14[Text[i]-32][b+1];
+       for(a=0;a<6;a++)
+       {
+         ZeroBit=fill-(cdata>>a) & 0x01;
+         LineScroll(Line+8+a,ZeroBit);
+       } 
+       for(sayac=0;sayac<210-delay;sayac++)
+       {
+         delay_ms(1);
+       }
+    }
+    i++;
+  }
+}
+/*******************************************************************************
+*   Text Kaydýrma Fonksiyonu  Font4                                            *
+*   Parameter:    Line, Speed, Fill                                            *
+*   Return:                                                                    *
+*******************************************************************************/
+void ScrollTextFont4(unsigned int Line, unsigned int Speed,int1 fill){
+  unsigned int a=0,b=0,i=0;
+  unsigned int cdata=0,cadr=0;;
+  unsigned int16 delay=speed*20;
+  unsigned int16 sayac=0;
+  int1 ZeroBit=0; 
+  
+  while(Text[i]!='\0')
+  {
+    if(Line+Font4H-1>HEIGHT)Break;
+    
+    cadr=CharAdres(Text[i]);
+    
+    for(b=0;b<24;b=b+2)
+    {
+       cdata=Font_12x16[cadr][b];
+       for(a=0;a<8;a++)
+       {
+         ZeroBit=fill-(cdata>>a) & 0x01;
+         LineScroll(a,ZeroBit);
+       }    
+       cdata=Font_12x16[cadr][b+1];
+       for(a=0;a<8;a++)
+       {
+         ZeroBit=fill-(cdata>>a) & 0x01;
+         LineScroll(8+a,ZeroBit);
+       } 
+       
+       for(sayac=0;sayac<210-delay;sayac++)
+       {
+         delay_ms(1);
+       }
+    }
+    i++;
+  }
+}
+/*******************************************************************************
+*   Ekran Temizleme Fonksiyonu                                                 *
+*   Parameter:    fill                                                         *
+*   Return:                                                                    *
+*******************************************************************************/
+void clear_display(int1 fill){
+int8 i=0,j=0,fdata=0;
+if (fill){
+  fdata=0x00;
+}else{
+  fdata=0xFF;
+}
+  for (i=0;i<4;i++)
+  {
+    for (j=0;j<16;j++)
+    {
+      display_ram[j][i]=fdata;
+    }
+  }
+}
+/*******************************************************************************
+*   Ekran Tersleme Fonksiyonu                                                  *
+*   Parameter:                                                                 *
+*   Return:                                                                    *
+*******************************************************************************/
+void invert_screen(void){
+ int8 i=0,j=0;
+ 
+ for(i=0;i<4;i++)
+ {
+   for(j=0;j<16;j++)
+   {
+     display_ram[j][i] =~ display_ram[j][i];  //Önbellekteki deðer deðillenip geri yazýlýyor      
+   }
+ }
+}
+/*******************************************************************************
+*   Parlaklýk Ayar Fonksiyonu                                                  *
+*   Parameter:    value (0-100)                                                *
+*   Return:                                                                    *
+*******************************************************************************/
+void Set_Brightness(int8 value){
+   set_pwm1_duty((int16)value*10);
+}
+/*******************************************************************************
+*   Pixel Fonksiyonu                                                           *
+*   Parameter:    Xpos, Ypos, fill                                             *
+*   Return:                                                                    *
+*******************************************************************************/
+void PutPixel(unsigned int Xpos,unsigned int Ypos, int1 fill)
+{
+  int8 y1=0,x1=0;
+  int8 y2=0,x2=0;
+  int8 temp=0;
+           
+  y1 = Ypos%4;
+  y2 = Ypos/4;
+  x1 = Xpos%8;    
+  x2 = Xpos/8;
+  
+  if(fill)  //Nokta Koy
+  {
+    temp=display_ram[(y2*4)+x2][y1]; //Ram'deki deðer ön belleðe alýnýyor.
+    display_ram[(y2*4)+x2][y1] = (temp & (255-(128>>x1))); //x'inci bit 0 yapýlýr
+  }
+  else     //Noktayý Sil
+  {
+    temp=display_ram[(y2*4)+x2][y1]; //Ram'deki deðer ön belleðe alýnýyor.
+    display_ram[(y2*4)+x2][y1] = (temp | (128>>x1)); //x'inci Bit 1 yapýlýr    
+  }
+ 
+}
+/*******************************************************************************
+*   Pixel Okuma Fonksiyonu                                                     *
+*   Parameter:    Xpos, Ypos                                                   *
+*   Return: value                                                              *
+*******************************************************************************/
+int1 GetPixel(unsigned int Xpos,unsigned int Ypos){
+  int8 y1=0,x1=0;
+  int8 y2=0,x2=0;
+  int8 temp=0;
+  int1 value=0;
+  
+  y1 = Ypos%4;
+  y2 = Ypos/4;
+  x1 = Xpos%8;    
+  x2 = Xpos/8;
+  
+  temp=display_ram[(y2*4)+x2][y1]; //Ram'deki deðer ön belleðe alýnýyor.
+  value=1-(0x80 & temp<<x1)/128;   //Ram adresindeki bit geri gönderiliyor
+  return value;
+}
+/*******************************************************************************
+*   Çizgi Çizme Fonksiyonu                                                     *
+*   Parameter:    x1, x2, y1, y2, fill                                         *
+*   Return:                                                                    *
+*******************************************************************************/
+void Line(unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, int1 fill)
+{
+  signed int16 addx=1, addy=1, P;
+  signed int16 i, dy, dx, diff;
+  
+   if(x2>x1) 
+   {
+      dx = x2 - x1;
+   }else{
+      dx = x1 - x2;
+      addx = -1;
+   }
+   if(y2>y1)
+   {
+      dy = y2 - y1;
+   }else{
+      dy = y1 - y2;
+      addy = -1;
+   }
+
+   if(dx >= dy)
+   {
+      dy *= 2;
+      P = dy - dx;
+      diff = P - dx;
+
+      for(i=0; i<=dx; i++)
+      {
+         PutPixel(x1, y1, fill);
+
+         if(P < 0)
+         {
+            P  += dy;
+            x1 += addx;
+         }
+         else
+         {
+            P  += diff;
+            x1 += addx;
+            y1 += addy;
+         }
+      }
+   }
+   else
+   {
+      dx *= 2;
+      P = dx - dy;
+      diff = P - dy;
+
+      for(i=0; i<=dy; ++i)
+      {
+         PutPixel(x1, y1, fill);
+
+         if(P < 0)
+         {
+            P  += dx;
+            y1 += addy;
+         }
+         else
+         {
+            P  += diff;
+            x1 += addx;
+            y1 += addy;
+         }
+      }
+   }   
+}
+/*******************************************************************************
+*   Dikdörtgen Çizme Fonksiyonu                                                *
+*   Parameter:    x1, x2, y1, y2, fill                                         *
+*   Return:                                                                    *
+*******************************************************************************/
+void Rectangle(unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, int1 fill)
+{
+   unsigned int16  i, xmin, xmax, ymin, ymax;
+
+  if(fill)
+   {
+      if(x1 < x2)
+      {
+         xmin = x1;
+         xmax = x2;
+      }
+      else
+      {
+         xmin = x2;
+         xmax = x1;
+      }
+
+      if(y1 < y2)
+      {
+         ymin = y1;
+         ymax = y2;
+      }
+      else
+      {
+         ymin = y2;
+         ymax = y1;
+      }
+
+      for(; xmin <= xmax; ++xmin)
+      {
+         for(i=ymin; i<=ymax; ++i)
+         {
+            PutPixel(xmin, i, 1);
+         }
+      }
+   }
+   else
+   {
+      Line(x1, y1, x2, y1, 1);
+      Line(x2, y1, x2, y2, 1);
+      Line(x2, y2, x1, y2, 1);
+      Line(x1, y2, x1, y1, 1);
+   }      
+}
+/*******************************************************************************
+*   Çember Cizme Fonksiyonu                                                    *
+*   Parameter:    x, y, Size, fill                                             *
+*   Return:                                                                    *
+*******************************************************************************/
+void Circle(unsigned int x, unsigned int y, unsigned int size, int1 fill)
+{
+   signed int a,b,P;
+   a=0;
+   b=size;
+   P=1-size;
+   
+   do
+   {
+      if(fill)
+      {
+         Line(x-a, y+b, x+a, y+b,1);
+         Line(x-a, y-b, x+a, y-b,1);
+         Line(x-b, y+a, x+b, y+a,1);
+         Line(x-b, y-a, x+b, y-a,1);
+      }
+      else
+      {
+         PutPixel(a+x, b+y,1);
+         PutPixel(b+x, a+y,1);
+         PutPixel(x-a, b+y,1);
+         PutPixel(x-b, a+y,1);
+         PutPixel(b+x, y-a,1);
+         PutPixel(a+x, y-b,1);
+         PutPixel(x-a, y-b,1);
+         PutPixel(x-b, y-a,1);
+      }
+      
+      if(P < 0)
+      P+= 3 + 2*a++;
+    else
+      P+= 5 + 2*(a++ - b--);
+     
+  }while(a<=b);
+
+}
+/*******************************************************************************
+*   Bargraph Çizme Fonksiyonu                                                  *
+*   Parameter:    x1, y1, x2, y2, Mode, Value                                  *
+*   Return:                                                                    *
+*******************************************************************************/
+void Bargraph (unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2, int1 hor, unsigned int value,)
+{
+  unsigned int w=0;    
+  unsigned int h=0;
+  unsigned int a=0,b=0;
+  unsigned int16 barval=0;
+  
+  if(x1>x2) w=x1-x2;
+  if(x1<x2) w=x2-x1;  
+  if(y1>y2) h=y1-y2; 
+  if(y1<y2) h=y2-y1;
+  
+  if(value>100)value=100;
+  
+  if(hor) //Bar Dikey Olarak Oluþturulacak
+  {
+    barval=((int16)value*h)/100;
+  
+    for (a=0;a<h+1;a++)
+    {
+      for(b=0;b<w+1;b++)
+      {
+        if(barval>=a){
+           PutPixel(x1+b,15-a+y1,1);
+        }else{
+           PutPixel(x1+b,15-a+y1,0);
+        }
+      }
+    }
+    
+  }else{  //Bar Yatay olarak Oluþturulacak
+  
+    barval=((int16)value*w)/100;
+    
+    for (a=0;a<w+1;a++)
+    {
+      for(b=0;b<h+1;b++)
+      {
+        if(barval>=a)
+        {
+          PutPixel(x1+a,y1+b,1);
+        }else{
+          PutPixel(x1+a,y1+b,0);
+        }
+      }
+    }
+  }
+}
+/*******************************************************************************
+*   Text Basma Fonksiyonu                                                      *
+*   Parameter:    x, y, size, fill                                             *
+*   Return:                                                                    *
+*******************************************************************************/
+void ShowString(unsigned int x, unsigned int y, unsigned int size, int1 fill){
+  switch(size)
+  {
+    case 1:  DrawCharFont1(x,y,fill);break;
+    case 2:  DrawCharFont2(x,y,fill);break;
+    case 3:  DrawCharFont3(x,y,fill);break;
+    case 4:  DrawCharFont4(x,y,fill);break;
+    default: break;
+  }
+}
+/*******************************************************************************
+*   Text Kaydýrma Fonksiyonu                                                   *
+*   Parameter:    Line, Size, Speed, Fill                                      *
+*   Return:                                                                    *
+*******************************************************************************/
+void TextToLeftScroll(unsigned int Line, unsigned int Size, unsigned int Speed,int1 fill){
+   switch (size)
+   {
+     case 1:  ScrollTextFont1(Line,Speed,fill);Break;
+     case 2:  ScrollTextFont2(Line,Speed,fill);Break;
+     case 3:  ScrollTextFont3(Line,Speed,fill);Break;
+     case 4:  ScrollTextFont4(Line,Speed,fill);Break;
+     default: Break;
+   }
+}
+
+void Writeimage(){
+int8 a=0,b=0,i=0;
+int8 cdata=0;
+  
+   for (a=0;a<32;a++)
+   {
+     cdata=imageBuffer[i];
+     for(b=0;b<8;b++)
+     {
+        PutPixel(a,b,(cdata>>b)&0x01); 
+     }
+     i++;
+     cdata=imageBuffer[i];
+     for(b=0;b<8;b++)
+     {
+        PutPixel(a,8+b,(cdata>>b)&0x01);
+     }
+     i++;
+   }
+
+}
+
+

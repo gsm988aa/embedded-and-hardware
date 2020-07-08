@@ -1,0 +1,23 @@
+Added Component: Designator=R1(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW2(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW3(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=R1-2
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Added Pin To Net: NetName=GND Pin=SW2-1
+Added Pin To Net: NetName=GND Pin=SW3-1
+Added Pin To Net: NetName=PD21 Pin=R1-1
+Added Pin To Net: NetName=PD21 Pin=SW2-3
+Added Net: Name=PD21
+Added Pin To Net: NetName=PD22 Pin=R2-1
+Added Pin To Net: NetName=PD22 Pin=SW3-3
+Added Net: Name=PD22
+Added Member To Class: ClassName=Sheet1 Member=Component R1 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R2 10K
+Added Member To Class: ClassName=Sheet1 Member=Component SW2 Button1
+Added Member To Class: ClassName=Sheet1 Member=Component SW3 Button1
+Added Room: Name=Sheet1

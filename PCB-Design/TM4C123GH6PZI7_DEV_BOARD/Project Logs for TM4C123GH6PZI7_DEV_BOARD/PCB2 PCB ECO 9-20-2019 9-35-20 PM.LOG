@@ -1,0 +1,36 @@
+Added Component: Designator=J5(IDC_CONNECTOR_20_2.54MM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=R7-2
+Added Pin To Net: NetName=3.3V Pin=R8-2
+Added Pin To Net: NetName=3.3V Pin=R9-2
+Change Net Name : Old Net Name=PIN82 New Net Name=JTAG_TDO
+Change Net Name : Old Net Name=PIN83 New Net Name=JTAG_TDI
+Change Net Name : Old Net Name=PIN84 New Net Name=JTAG_TMS
+Change Net Name : Old Net Name=PIN85 New Net Name=JTAG_TCK
+Added Pin To Net: NetName=GND Pin=J5-3
+Added Pin To Net: NetName=GND Pin=J5-7
+Added Pin To Net: NetName=GND Pin=J5-9
+Added Pin To Net: NetName=GND Pin=J5-11
+Added Pin To Net: NetName=GND Pin=J5-15
+Added Pin To Net: NetName=GND Pin=J5-19
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetJ5_6 Pin=J5-6
+Added Pin To Net: NetName=NetJ5_6 Pin=R9-1
+Added Net: Name=NetJ5_6
+Added Pin To Net: NetName=RST_N Pin=J5-16
+Added Net: Name=RST_N
+Added Member To Class: ClassName=Sheet1 Member=Component J5 JTAG
+Added Member To Class: ClassName=Sheet1 Member=Component R7 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R8 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R9 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R10 10K
+Added Room: Name=Sheet1

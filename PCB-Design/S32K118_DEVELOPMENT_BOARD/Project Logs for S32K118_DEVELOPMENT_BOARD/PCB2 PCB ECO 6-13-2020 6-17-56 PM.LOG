@@ -1,0 +1,23 @@
+Added Component: Designator=C16(CAP_RAD_4mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D6(L0805RED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(RES-0.25W-H-MF)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U5(SOT223-3)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5 Pin=C16-1
+Added Pin To Net: NetName=PIN10 Pin=C16-2
+Added Pin To Net: NetName=PIN10 Pin=D6-2
+Added Pin To Net: NetName=+5 Pin=R10-1
+Added Pin To Net: NetName=PIN10 Pin=U5-1
+Added Pin To Net: NetName=+5 Pin=U5-2
+Added Pin To Net: NetName=NetC11_1 Pin=U5-3
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=R10-2
+Added Net: Name=NetD6_1
+Added Member To Class: ClassName=Sheet2 Member=Component C16 100uF
+Added Member To Class: ClassName=Sheet2 Member=Component D6 LED0805
+Added Member To Class: ClassName=Sheet2 Member=Component R10 10K
+Added Member To Class: ClassName=Sheet2 Member=Component U5 AMS1117
+Added Room: Name=Sheet2

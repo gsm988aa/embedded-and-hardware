@@ -1,7 +1,0 @@
-Added Component: Designator=Q13(SOT23-3)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=NetQ13_1 Pin=Q13-1
-Added Pin To Net: NetName=NetC14_1 Pin=Q13-2
-Added Pin To Net: NetName=NetD8_1 Pin=Q13-3
-Added Member To Class: ClassName=PICKIT2-Original-WithOut-Memory Member=Component Q13 SI2301DS-P
-Added Room: Name=PICKIT2-Original-WithOut-Memory

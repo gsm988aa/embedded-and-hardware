@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=JTAG_TDO Pin=J4-7
+Removed Pin From Net: NetName=JTAG_TDI Pin=J4-8
+Removed Pin From Net: NetName=JTAG_TMS Pin=J4-9
+Removed Pin From Net: NetName=JTAG_TDO Pin=U1-82
+Removed Pin From Net: NetName=JTAG_TDI Pin=U1-83
+Removed Pin From Net: NetName=JTAG_TMS Pin=U1-84
+Added Pin To Net: NetName=JTAG_TMS Pin=J4-7
+Added Pin To Net: NetName=JTAG_TDO Pin=J4-8
+Added Pin To Net: NetName=JTAG_TDI Pin=J4-9
+Added Pin To Net: NetName=JTAG_TDI Pin=J5-2
+Added Pin To Net: NetName=JTAG_TDO Pin=J5-4
+Added Pin To Net: NetName=JTAG_TMS Pin=J5-8
+Added Pin To Net: NetName=JTAG_TCK Pin=J5-12
+Added Pin To Net: NetName=PIN63 Pin=J5-16
+Added Pin To Net: NetName=JTAG_TDI Pin=R7-1
+Added Pin To Net: NetName=JTAG_TCK Pin=R8-1
+Added Pin To Net: NetName=JTAG_TMS Pin=R10-2
+Added Pin To Net: NetName=JTAG_TMS Pin=U1-82
+Added Pin To Net: NetName=JTAG_TDO Pin=U1-83
+Added Pin To Net: NetName=JTAG_TDI Pin=U1-84
+Change Net Name : Old Net Name=JTAG_TCK New Net Name=PIN85
+Change Net Name : Old Net Name=JTAG_TDI New Net Name=PIN84
+Change Net Name : Old Net Name=JTAG_TDO New Net Name=PIN83
+Change Net Name : Old Net Name=JTAG_TMS New Net Name=PIN82
+Added Member To Class: ClassName=Sheet1 Member=Component U1 TM4C123GH6PZI7
+Added Room: Name=Sheet1

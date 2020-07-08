@@ -1,5 +1,0 @@
-DRC Rules Export File for PCB: D:\embeddedprojects\STM32_Projects\STM32F103C4_RETIME_CLOCK\PCB\PCB1.PcbDoc
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.09
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

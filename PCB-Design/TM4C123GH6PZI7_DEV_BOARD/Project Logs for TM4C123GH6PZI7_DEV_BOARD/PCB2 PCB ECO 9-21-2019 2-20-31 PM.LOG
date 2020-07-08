@@ -1,0 +1,17 @@
+Added Component: Designator=J9(Header 2x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U5(SOT223-3)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN6 Pin=J1-10
+Added Pin To Net: NetName=PIN5 Pin=J9-1
+Added Pin To Net: NetName=PIN8 Pin=J9-2
+Added Pin To Net: NetName=PIN6 Pin=J9-3
+Added Pin To Net: NetName=PIN9 Pin=J9-4
+Added Pin To Net: NetName=PIN6 Pin=U1-10
+Added Pin To Net: NetName=PIN6 Pin=U5-1
+Added Pin To Net: NetName=PIN7 Pin=U5-2
+Added Pin To Net: NetName=PIN7 Pin=U5-2
+Added Pin To Net: NetName=NetC1_1 Pin=U5-3
+Added Member To Class: ClassName=Sheet1 Member=Component J9 Header 2x2 TH Pitch 2.54mm
+Added Member To Class: ClassName=Sheet1 Member=Component U5 AMS1117
+Added Room: Name=Sheet1

@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=J7 Old Footprint=Header 10x2 TH Pitch 2.54mm New Footprint=IDC_CONNECTOR_20_2.54
+Change Component Comment : Designator=J7 Old Comment=Header 10x2 TH Pitch 2.54mm New Comment=JTAG
+Added Room: Name=Sheet1

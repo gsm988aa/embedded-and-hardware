@@ -1,7 +1,0 @@
-Added Component: Designator=U10(TO252-3)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=NetC1_2 Pin=U10-1
-Added Pin To Net: NetName=GND Pin=U10-2
-Added Pin To Net: NetName=VCC Pin=U10-3
-Added Member To Class: ClassName=Sheet1 Member=Component U10 LM7805
-Added Room: Name=Sheet1

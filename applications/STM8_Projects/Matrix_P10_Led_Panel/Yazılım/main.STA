@@ -1,0 +1,122 @@
+
+ROM used: 21348 (33%)
+          21348 (33%) including unused fragments
+
+          5 Average locations per line
+          22 Average locations per statement
+
+RAM used: 260 (7%) at main() level
+          346 (9%) worst case
+
+Stack used: 6 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  456   348  36  main.c
+  466     0   0  ..\..\..\..\Program Files (x86)\PICC\devices\18F4620.h
+ 2229   257  26  ..\..\..\..\Program Files (x86)\PICC\drivers\math.h
+  768   374  38  P10_Panel_Driver.c
+  101     0   0  font1.h
+  103     0   0  font2.h
+  102     0   0  font3.h
+  107     0   0  font4.h
+----- -----
+ 4332   979 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1  1121 10.1  @delay_ms1
+0    124   0  10             @FLT
+0     60   0   4             @SFTOI
+0     54   0   2             @ITOF
+0    246   1  11   265  5.0  @MULFF
+0    632   1  16  1503  8.1  @ADDFF
+0    352   1  14  1381 10.1  @DIVFF
+0    904   2  46  1146  9.9  cos
+0     78   0   8    44  1.9  sin
+0    494   1   0             @const208
+0   1550   4   0   183  3.4  @const212
+0   2318   5   0  1071  8.0  @const216
+0   2390   6   0   183  3.4  @const220
+0     64   0   2   265  5.0  CharAdres
+0    604   1  16  1503  8.1  LineScroll
+0    224   1  12   915  9.6  DrawCharFont1
+0     34   0   5   102  2.8  @MUL1616
+0    378   1  12  1381 10.1  DrawCharFont2
+0    378   1  12  1381 10.1  DrawCharFont3
+0    376   1  13  1427 10.3  DrawCharFont4
+0    348   1  13  1017 10.3  ScrollTextFont1
+0    436   1  15  1351 10.4  ScrollTextFont2
+0    436   1  15  1351 10.4  ScrollTextFont3
+0    428   1  11  1358 10.4  ScrollTextFont4
+0     84   0   6   348  5.1  clear_display
+0     70   0   3    43  1.5  Set_Brightness
+0    274   1  10   825  8.4  PutPixel
+0    474   1  19  1580  8.5  Line
+0     84   0   6             @MULS1616
+0    252   1  15  1055  5.9  Rectangle
+0    546   1  11  1822  8.7  Circle
+0     78   0   2             @MUL88
+0    414   1  14  1825  9.1  Bargraph
+0     70   0   5    76  2.4  @DIV1616
+0     92   0   4   402  4.8  ShowString
+0     92   0   4   402  4.8  TextToLeftScroll
+0     98   0   0   735  5.3  Timer0_int
+0     34   0   0             @goto11271
+0    570   1   2  1645  4.9  MAIN
+0     20   0   0             @const441
+0     22   0   0             @const442
+0     40   0   0   397  7.0  @const443
+0    102   0   6   397  7.0  write_data
+0    456   1   2  1205  3.9  FontTest
+0     22   0   0             @const447
+0     18   0   0             @const449
+0     18   0   0             @const450
+0     18   0   0             @const451
+0     18   0   0  1839  3.9  @const452
+0    610   1   2  1839  3.9  NumberTest
+0     22   0   0             @const453
+0     32   0   1             @SPRINTF
+0     44   0   3             @DIV88
+0    188   0   6             @PRINTF_D0_457
+0     20   0   0             @const465
+0     22   0   0             @const466
+0    458   1   2   856  2.4  ScrollTest
+0     22   0   0             @const469
+0     28   0   0             @const471
+0     28   0   0             @const472
+0     28   0   0             @const473
+0     28   0   0             @const474
+0     80   0   0   635  3.8  @const475
+0    270   1   2   635  3.8  BrightTest
+0     22   0   0             @const476
+0     20   0   0  2491  2.0  @const478
+0    928   2   1  2491  2.0  GeoShapes
+0    562   1  12   938  7.1  SineWawe
+0     22   0   0             @const483
+0     22   0   0  3791  4.9  @const484
+0    786   2   4  3791  4.9  BarTest
+0     20   0   0             @const487
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               45
+    Statements              979
+    Comments                947
+    Volume (V)              90156
+    Difficulty (D)          279.9
+    Effort to implement (E) 25232396
+    Time to implement (T)   389 hours, 23 minutes
+    Est Delivered Bugs (B)  29
+    Cyclomatic Complexity   169
+    Maintainability (MI)    117
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-0FFFE  21178  44184  
+
+
+

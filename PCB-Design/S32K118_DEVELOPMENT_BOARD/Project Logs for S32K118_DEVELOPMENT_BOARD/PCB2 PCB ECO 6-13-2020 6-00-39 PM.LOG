@@ -1,0 +1,16 @@
+Added Component: Designator=R8(R0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(R0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PIN23 Pin=R8-1
+Added Pin To Net: NetName=PIN22 Pin=R9-1
+Added Pin To Net: NetName=PIN23 Pin=SW1-1
+Added Pin To Net: NetName=PIN10 Pin=SW1-4
+Added Pin To Net: NetName=PIN22 Pin=SW2-1
+Added Pin To Net: NetName=PIN10 Pin=SW2-4
+Added Pin To Net: NetName=VCC Pin=R8-2
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Net: Name=VCC
+Added Member To Class: ClassName=Sheet2 Member=Component R8 220
+Added Member To Class: ClassName=Sheet2 Member=Component R9 220
+Added Room: Name=Sheet2

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=PIN33 Pin=UART0-1
+Removed Pin From Net: NetName=PIN34 Pin=UART0-2
+Removed Member From Class: ClassName=Sheet2 Member=UART0
+Added Pin To Net: NetName=PIN26 Pin=U3-3
+Added Pin To Net: NetName=PIN25 Pin=U3-8
+Added Room: Name=Sheet2

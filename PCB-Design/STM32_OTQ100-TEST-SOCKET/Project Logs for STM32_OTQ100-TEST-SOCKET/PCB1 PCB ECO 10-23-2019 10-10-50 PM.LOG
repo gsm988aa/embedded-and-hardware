@@ -1,0 +1,9 @@
+Added Component: Designator=SW1(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW2(BUTTON_HOLE_5.0mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW2-3
+Added Member To Class: ClassName=Sheet1 Member=Component SW1 Button Hole
+Added Member To Class: ClassName=Sheet1 Member=Component SW2 Button Hole
+Added Room: Name=Sheet1
