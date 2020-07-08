@@ -1,0 +1,17 @@
+MQTTClient.c:19:6:NewMessageData	24	static
+MQTTClient.c:25:9:getNextPacketId	16	static
+MQTTClient.c:30:9:sendPacket	48	static
+MQTTClient.c:56:6:MQTTClient	32	static
+MQTTClient.c:76:9:decodePacket	56	static
+MQTTClient.c:106:9:readPacket	56	static
+MQTTClient.c:135:6:isTopicMatched	32	static
+MQTTClient.c:166:9:deliverMessage	48	static
+MQTTClient.c:197:9:keepalive	32	static
+MQTTClient.c:225:9:cycle	104	static
+MQTTClient.c:297:9:MQTTYield	32	static
+MQTTClient.c:318:9:waitfor	32	static
+MQTTClient.c:332:9:MQTTConnect	120	static
+MQTTClient.c:379:9:MQTTSubscribe	96	static
+MQTTClient.c:430:9:MQTTUnsubscribe	64	static
+MQTTClient.c:464:9:MQTTPublish	112	static
+MQTTClient.c:522:9:MQTTDisconnect	32	static

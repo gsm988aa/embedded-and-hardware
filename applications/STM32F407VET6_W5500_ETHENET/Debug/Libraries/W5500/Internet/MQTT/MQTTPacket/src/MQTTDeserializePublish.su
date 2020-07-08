@@ -1,0 +1,2 @@
+MQTTDeserializePublish.c:36:9:MQTTDeserialize_publish	48	static
+MQTTDeserializePublish.c:83:9:MQTTDeserialize_ack	48	static

@@ -1,0 +1,9 @@
+w5500.c:65:10:WIZCHIP_READ	24	static
+w5500.c:96:6:WIZCHIP_WRITE	24	static
+w5500.c:126:6:WIZCHIP_READ_BUF	40	static
+w5500.c:158:6:WIZCHIP_WRITE_BUF	32	static
+w5500.c:190:10:getSn_TX_FSR	32	static
+w5500.c:210:10:getSn_RX_RSR	32	static
+w5500.c:229:6:wiz_send_data	32	static
+w5500.c:250:6:wiz_recv_data	32	static
+w5500.c:272:6:wiz_recv_ignore	32	static

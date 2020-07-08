@@ -1,0 +1,2 @@
+MQTTSubscribeServer.c:35:9:MQTTDeserialize_subscribe	56	static
+MQTTSubscribeServer.c:85:9:MQTTSerialize_suback	40	static

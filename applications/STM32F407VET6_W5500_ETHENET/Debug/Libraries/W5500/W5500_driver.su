@@ -1,0 +1,9 @@
+W5500_driver.c:6:13:MX_GPIO_Init	40	static
+W5500_driver.c:23:13:MX_SPI1_Init	8	static
+W5500_driver.c:40:6:W5500_Reset	8	static
+W5500_driver.c:48:6:W5500_Init	8	static
+W5500_driver.c:55:6:W5500_chipInit	40	static
+W5500_driver.c:78:6:W5500WriteByte	16	static
+W5500_driver.c:83:9:W5500ReadByte	24	static
+W5500_driver.c:91:6:W5500Select	8	static
+W5500_driver.c:96:6:W5500DeSelect	8	static
