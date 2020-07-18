@@ -1,9 +1,0 @@
-Removed Member From Class: ClassName=Sheet2 Member=J6
-Removed Member From Class: ClassName=Sheet2 Member=J7
-Added Component: Designator=U3(nRF24L01)
-Add component. Clean all parameters for all variants
-Added Component: Designator=U4(nRF24L01)
-Add component. Clean all parameters for all variants
-Added Member To Class: ClassName=Sheet2 Member=Component U3 nRF24L01
-Added Member To Class: ClassName=Sheet2 Member=Component U4 nRF24L01
-Added Room: Name=Sheet2

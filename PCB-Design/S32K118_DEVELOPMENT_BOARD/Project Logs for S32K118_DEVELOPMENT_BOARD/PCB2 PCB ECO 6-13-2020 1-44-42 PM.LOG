@@ -1,8 +1,0 @@
-Change Component Comment : Designator=Y1 Old Comment=8MHz New Comment=40MHz
-Change Component Designator: OldDesignator=Y1 NewDesignator=40MHz
-Added Component: Designator=R1(RES-0.25W-H-MF)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=PIN11 Pin=R1-1
-Added Pin To Net: NetName=PIN12 Pin=R1-2
-Added Member To Class: ClassName=Sheet2 Member=Component R1 1M
-Added Room: Name=Sheet2

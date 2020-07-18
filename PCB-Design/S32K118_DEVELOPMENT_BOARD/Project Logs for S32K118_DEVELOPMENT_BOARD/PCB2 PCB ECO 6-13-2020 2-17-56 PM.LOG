@@ -1,7 +1,0 @@
-Added Component: Designator=J6(Header 4x2 TH Pitch 2.54mm)
-Add component. Clean all parameters for all variants
-Added Component: Designator=J7(Header 4x2 TH Pitch 2.54mm)
-Add component. Clean all parameters for all variants
-Added Member To Class: ClassName=Sheet2 Member=Component J6 Header 4x2 TH Pitch 2.54mm
-Added Member To Class: ClassName=Sheet2 Member=Component J7 Header 4x2 TH Pitch 2.54mm
-Added Room: Name=Sheet2

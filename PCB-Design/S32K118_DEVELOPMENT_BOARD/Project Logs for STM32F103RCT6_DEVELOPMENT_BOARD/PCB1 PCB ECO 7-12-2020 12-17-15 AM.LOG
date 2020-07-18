@@ -1,0 +1,190 @@
+Removed Pin From Net: NetName=VCC Pin=J2-1
+Removed Pin From Net: NetName=NetJ2_2 Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=VCC Pin=J11-1
+Removed Pin From Net: NetName=NetJ11_2 Pin=J11-2
+Removed Pin From Net: NetName=GND Pin=J11-3
+Removed Pin From Net: NetName=PA0 Pin=PORTA-1
+Removed Pin From Net: NetName=PA1 Pin=PORTA-2
+Removed Pin From Net: NetName=PA2 Pin=PORTA-3
+Removed Pin From Net: NetName=PA3 Pin=PORTA-4
+Removed Pin From Net: NetName=PA4 Pin=PORTA-5
+Removed Pin From Net: NetName=PA5 Pin=PORTA-6
+Removed Pin From Net: NetName=PA6 Pin=PORTA-7
+Removed Pin From Net: NetName=PA7 Pin=PORTA-8
+Removed Pin From Net: NetName=PA8 Pin=PORTA-9
+Removed Pin From Net: NetName=PA9 Pin=PORTA-10
+Removed Pin From Net: NetName=PA10 Pin=PORTA-11
+Removed Pin From Net: NetName=PA11 Pin=PORTA-12
+Removed Pin From Net: NetName=PA12 Pin=PORTA-13
+Removed Pin From Net: NetName=PA13 Pin=PORTA-14
+Removed Pin From Net: NetName=PA14 Pin=PORTA-15
+Removed Pin From Net: NetName=PA15 Pin=PORTA-16
+Removed Pin From Net: NetName=PB0 Pin=PORTB-1
+Removed Pin From Net: NetName=PB1 Pin=PORTB-2
+Removed Pin From Net: NetName=PB2 Pin=PORTB-3
+Removed Pin From Net: NetName=PB3 Pin=PORTB-4
+Removed Pin From Net: NetName=PB4 Pin=PORTB-5
+Removed Pin From Net: NetName=PB5 Pin=PORTB-6
+Removed Pin From Net: NetName=PB6 Pin=PORTB-7
+Removed Pin From Net: NetName=PB7 Pin=PORTB-8
+Removed Pin From Net: NetName=PB8 Pin=PORTB-9
+Removed Pin From Net: NetName=PB9 Pin=PORTB-10
+Removed Pin From Net: NetName=PB10 Pin=PORTB-11
+Removed Pin From Net: NetName=PB11 Pin=PORTB-12
+Removed Pin From Net: NetName=PB12 Pin=PORTB-13
+Removed Pin From Net: NetName=PB13 Pin=PORTB-14
+Removed Pin From Net: NetName=PB14 Pin=PORTB-15
+Removed Pin From Net: NetName=PB15 Pin=PORTB-16
+Removed Pin From Net: NetName=PC0 Pin=PORTC-1
+Removed Pin From Net: NetName=PC1 Pin=PORTC-2
+Removed Pin From Net: NetName=PC2 Pin=PORTC-3
+Removed Pin From Net: NetName=PC3 Pin=PORTC-4
+Removed Pin From Net: NetName=PC4 Pin=PORTC-5
+Removed Pin From Net: NetName=PC5 Pin=PORTC-6
+Removed Pin From Net: NetName=PC6 Pin=PORTC-7
+Removed Pin From Net: NetName=PC7 Pin=PORTC-8
+Removed Pin From Net: NetName=PC8 Pin=PORTC-9
+Removed Pin From Net: NetName=PC9 Pin=PORTC-10
+Removed Pin From Net: NetName=PC10 Pin=PORTC-11
+Removed Pin From Net: NetName=PC11 Pin=PORTC-12
+Removed Pin From Net: NetName=PC12 Pin=PORTC-13
+Removed Pin From Net: NetName=PC14 Pin=PORTC-15
+Removed Pin From Net: NetName=PC15 Pin=PORTC-16
+Removed Pin From Net: NetName=PD2 Pin=PORTD-3
+Removed Pin From Net: NetName=VCC Pin=PORTD-4
+Removed Pin From Net: NetName=GND Pin=PORTD-5
+Removed Pin From Net: NetName=VCC Pin=PORTD-6
+Removed Pin From Net: NetName=GND Pin=PORTD-7
+Removed Pin From Net: NetName=VCC Pin=PORTD-8
+Removed Pin From Net: NetName=GND Pin=PORTD-9
+Removed Pin From Net: NetName=VCC Pin=PORTD-10
+Removed Pin From Net: NetName=GND Pin=PORTD-11
+Removed Pin From Net: NetName=VCC Pin=PORTD-12
+Removed Pin From Net: NetName=GND Pin=PORTD-13
+Removed Pin From Net: NetName=VCC Pin=PORTD-14
+Removed Pin From Net: NetName=GND Pin=PORTD-15
+Removed Pin From Net: NetName=VCC Pin=PORTD-16
+Removed Pin From Net: NetName=NetJ11_2 Pin=R3-1
+Removed Pin From Net: NetName=NetJ2_2 Pin=R6-1
+Removed Member From Class: ClassName=Sheet1 Member=J11
+Removed Member From Class: ClassName=Sheet1 Member=PORTA
+Removed Member From Class: ClassName=Sheet1 Member=PORTB
+Removed Member From Class: ClassName=Sheet1 Member=PORTC
+Removed Member From Class: ClassName=Sheet1 Member=PORTD
+Removed Member From Class: ClassName=Sheet1 Member=R6
+Removed Member From Class: ClassName=Sheet1 Member=R?
+Change Component Footprint: Designator=J2 Old Footprint=Header 3x1 TH Pitch 2.54mm New Footprint=Header 16x2 TH Pitch 2.54mm
+Change Component Comment : Designator=J2 Old Comment=BOOT1 New Comment=Header 16x2 TH Pitch 2.54mm
+Change Component Comment : Designator=SOCKET1 Old Comment=S32K118 New Comment=SOCKET-ENPLAS-OTQ-64-0.5-03
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Added Component: Designator=J3(Header 16x2 TH Pitch 2.54mm)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PC6 Pin=C7-1
+Added Pin To Net: NetName=EXTAL Pin=C8-1
+Added Pin To Net: NetName=ADC0_SE0_ACMP0_IN0 Pin=J2-1
+Added Pin To Net: NetName=PTA1 Pin=J2-2
+Added Pin To Net: NetName=ADC1_SE0 Pin=J2-3
+Added Pin To Net: NetName=PTA3 Pin=J2-4
+Added Pin To Net: NetName=PTA4 Pin=J2-5
+Added Pin To Net: NetName=CPU_RESET_B Pin=J2-6
+Added Pin To Net: NetName=PTA6 Pin=J2-7
+Added Pin To Net: NetName=PTA7 Pin=J2-8
+Added Pin To Net: NetName=JTAG_TDO Pin=J2-9
+Added Pin To Net: NetName=PTA11 Pin=J2-10
+Added Pin To Net: NetName=PTA12 Pin=J2-11
+Added Pin To Net: NetName=PTA13 Pin=J2-12
+Added Pin To Net: NetName=PTB0 Pin=J2-13
+Added Pin To Net: NetName=PTB1 Pin=J2-14
+Added Pin To Net: NetName=ADC0_SE6 Pin=J2-15
+Added Pin To Net: NetName=ADC0_SE7 Pin=J2-16
+Added Pin To Net: NetName=PTB4 Pin=J2-17
+Added Pin To Net: NetName=PTB5 Pin=J2-18
+Added Pin To Net: NetName=PC6 Pin=J2-19
+Added Pin To Net: NetName=EXTAL Pin=J2-20
+Added Pin To Net: NetName=PC10 Pin=J2-21
+Added Pin To Net: NetName=PC5 Pin=J2-22
+Added Pin To Net: NetName=ADC0_SE8 Pin=J2-23
+Added Pin To Net: NetName=PTC1 Pin=J2-24
+Added Pin To Net: NetName=PC4 Pin=J2-25
+Added Pin To Net: NetName=PC3 Pin=J2-26
+Added Pin To Net: NetName=PB15 Pin=J2-27
+Added Pin To Net: NetName=PC8 Pin=J2-28
+Added Pin To Net: NetName=PB14 Pin=J2-29
+Added Pin To Net: NetName=PB13 Pin=J2-30
+Added Pin To Net: NetName=PB12 Pin=J2-31
+Added Pin To Net: NetName=PB9 Pin=J2-32
+Added Pin To Net: NetName=PB8 Pin=J3-1
+Added Pin To Net: NetName=PB7 Pin=J3-2
+Added Pin To Net: NetName=PB6 Pin=J3-3
+Added Pin To Net: NetName=PC11 Pin=J3-4
+Added Pin To Net: NetName=PB4 Pin=J3-5
+Added Pin To Net: NetName=PA15 Pin=J3-6
+Added Pin To Net: NetName=PA14 Pin=J3-7
+Added Pin To Net: NetName=PA13 Pin=J3-8
+Added Pin To Net: NetName=PA12 Pin=J3-9
+Added Pin To Net: NetName=PA11 Pin=J3-10
+Added Pin To Net: NetName=PA10 Pin=J3-11
+Added Pin To Net: NetName=PA9 Pin=J3-12
+Added Pin To Net: NetName=PA8 Pin=J3-13
+Added Pin To Net: NetName=PA7 Pin=J3-14
+Added Pin To Net: NetName=PA6 Pin=J3-15
+Added Pin To Net: NetName=PA5 Pin=J3-16
+Added Pin To Net: NetName=PA4 Pin=J3-17
+Added Pin To Net: NetName=PA3 Pin=J3-18
+Added Pin To Net: NetName=PC7 Pin=J3-19
+Added Pin To Net: NetName=PA2 Pin=J3-20
+Added Pin To Net: NetName=PC9 Pin=J3-21
+Added Pin To Net: NetName=PA1 Pin=J3-22
+Added Pin To Net: NetName=PC12 Pin=J3-23
+Added Pin To Net: NetName=PA0 Pin=J3-24
+Added Pin To Net: NetName=NetJ11_2 Pin=J3-25
+Added Pin To Net: NetName=NetJ2_2 Pin=J3-26
+Added Pin To Net: NetName=GND Pin=J3-27
+Added Pin To Net: NetName=VCC Pin=J3-28
+Added Pin To Net: NetName=GND Pin=J3-29
+Added Pin To Net: NetName=VCC Pin=J3-30
+Added Pin To Net: NetName=GND Pin=J3-31
+Added Pin To Net: NetName=VCC Pin=J3-32
+Added Pin To Net: NetName=PC6 Pin=SOCKET1-12
+Added Pin To Net: NetName=EXTAL Pin=Y1-1
+Added Pin To Net: NetName=PC6 Pin=Y1-2
+Change Net Name : Old Net Name=NetJ2_2 New Net Name=PTE11
+Change Net Name : Old Net Name=NetJ11_2 New Net Name=PTE10
+Change Net Name : Old Net Name=PA0 New Net Name=PTE9
+Change Net Name : Old Net Name=PA1 New Net Name=PTE7
+Change Net Name : Old Net Name=PA2 New Net Name=PTE5
+Change Net Name : Old Net Name=PA3 New Net Name=PTE3
+Change Net Name : Old Net Name=PA4 New Net Name=PTE2
+Change Net Name : Old Net Name=PA5 New Net Name=PTE1
+Change Net Name : Old Net Name=PA6 New Net Name=PTE0
+Change Net Name : Old Net Name=PA7 New Net Name=PTD16
+Change Net Name : Old Net Name=PA8 New Net Name=PTD15
+Change Net Name : Old Net Name=PA9 New Net Name=PTD7
+Change Net Name : Old Net Name=PA10 New Net Name=PTD6
+Change Net Name : Old Net Name=PA11 New Net Name=PTD5
+Change Net Name : Old Net Name=PA12 New Net Name=PTD4
+Change Net Name : Old Net Name=PA13 New Net Name=PTD3
+Change Net Name : Old Net Name=PA14 New Net Name=PTD2
+Change Net Name : Old Net Name=PA15 New Net Name=PTD1
+Change Net Name : Old Net Name=PB4 New Net Name=PTD0
+Change Net Name : Old Net Name=PB6 New Net Name=PTC16
+Change Net Name : Old Net Name=PB7 New Net Name=PTC15
+Change Net Name : Old Net Name=PB8 New Net Name=PTC14
+Change Net Name : Old Net Name=PB9 New Net Name=PTC9
+Change Net Name : Old Net Name=PB12 New Net Name=PTC8
+Change Net Name : Old Net Name=PB13 New Net Name=PTC7
+Change Net Name : Old Net Name=PB14 New Net Name=PTC6
+Change Net Name : Old Net Name=PB15 New Net Name=PTC4
+Change Net Name : Old Net Name=PC3 New Net Name=PTC3
+Change Net Name : Old Net Name=PC4 New Net Name=PTC2
+Change Net Name : Old Net Name=PC5 New Net Name=PTB13
+Change Net Name : Old Net Name=PC6 New Net Name=PTB6
+Change Net Name : Old Net Name=PC7 New Net Name=MCU_SENSE
+Change Net Name : Old Net Name=PC8 New Net Name=JTAG_TDI
+Change Net Name : Old Net Name=PC9 New Net Name=ADC1_SE11
+Change Net Name : Old Net Name=PC10 New Net Name=ADC1_SE7
+Change Net Name : Old Net Name=PC11 New Net Name=ADC0_SE15
+Change Net Name : Old Net Name=PC12 New Net Name=ACMP0_IN3
+Added Member To Class: ClassName=Sheet1 Member=Component J3 Header 16x2 TH Pitch 2.54mm
+Added Room: Name=Sheet1
