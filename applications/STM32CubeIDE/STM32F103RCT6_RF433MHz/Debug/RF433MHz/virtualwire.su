@@ -1,0 +1,30 @@
+virtualwire.cpp:10:1:virtual_wire::virtual_wire()	24	static
+virtualwire.cpp:15:1:virtual_wire::~virtual_wire()	16	static
+virtualwire.cpp:15:1:virtual virtual_wire::~virtual_wire()	16	static
+virtualwire.cpp:19:10:uint16_t virtual_wire::vw_crc(uint8_t*, uint8_t)	32	static
+virtualwire.cpp:29:9:uint8_t virtual_wire::vw_symbol_6to4(uint8_t)	24	static
+virtualwire.cpp:46:6:void virtual_wire::vw_set_rx_inverted(uint8_t)	16	static
+virtualwire.cpp:52:6:void virtual_wire::vw_set_ptt_inverted(uint8_t)	16	static
+virtualwire.cpp:60:6:void virtual_wire::vw_pll()	32	static
+virtualwire.cpp:148:6:void virtual_wire::vw_setup(uint16_t)	16	static
+virtualwire.cpp:152:6:void virtual_wire::vw_tx_start()	16	static
+virtualwire.cpp:166:6:void virtual_wire::vw_tx_stop()	16	static
+virtualwire.cpp:178:6:void virtual_wire::vw_rx_start()	16	static
+virtualwire.cpp:188:6:void virtual_wire::vw_rx_stop()	16	static
+virtualwire.cpp:194:9:uint8_t virtual_wire::vw_tx_active()	16	static
+virtualwire.cpp:201:6:void virtual_wire::vw_wait_tx()	16	static
+virtualwire.cpp:210:6:void virtual_wire::vw_wait_rx()	16	static
+virtualwire.cpp:217:9:uint8_t virtual_wire::vw_wait_rx_max(long unsigned int)	24	static
+virtualwire.cpp:226:8:int8_t virtual_wire::vw_send(uint8_t*, uint8_t)	40	static
+virtualwire.cpp:273:9:uint8_t virtual_wire::vw_have_message()	16	static
+virtualwire.cpp:281:9:uint8_t virtual_wire::vw_get_message(uint8_t*, uint8_t*)	32	static
+virtualwire.cpp:304:9:uint8_t virtual_wire::vw_get_rx_good()	16	static
+virtualwire.cpp:309:9:uint8_t virtual_wire::vw_get_rx_bad()	16	static
+virtualwire.cpp:313:6:void virtual_wire::vw_Int_Handler()	24	static
+virtualwire.cpp:347:10:uint16_t virtual_wire::crc16_update(uint16_t, uint8_t)	24	static
+virtualwire.cpp:363:10:uint16_t virtual_wire::crc_xmodem_update(uint16_t, uint8_t)	24	static
+virtualwire.cpp:378:10:uint16_t virtual_wire::_crc_ccitt_update(uint16_t, uint8_t)	16	static
+virtualwire.cpp:386:9:uint8_t virtual_wire::_crc_ibutton_update(uint8_t, uint8_t)	24	static
+virtualwire.cpp:402:6:void virtual_wire::reg_vw_rx_pin(bool (*)())	16	static
+virtualwire.cpp:407:6:void virtual_wire::reg_vw_tx_pin(void (*)(bool))	16	static
+virtualwire.cpp:412:6:void virtual_wire::reg_vw_ptt_pin(void (*)(bool))	16	static
